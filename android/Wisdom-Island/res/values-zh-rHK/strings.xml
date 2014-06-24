@@ -232,7 +232,7 @@
     <string name="apps_recommend">軟體回饋</string>
     <string name="share">分享</string>
     <string name="tellfriend">告訴朋友</string>
-    <string name="hotline">客服熱線400–700–6560</string>
+    <string name="hotline">客服熱線400–111-1111</string>
     <string name="push">推送</string>
     <string name="privacymanage">私隱設定</string>
     <string name="onlyusewifi">僅WiFi使用</string>
@@ -260,26 +260,26 @@
     <string name="pwdandrepeatpwd_isnt_consistent">密碼和確認密碼不一致</string>
     <string name="kindergartens">校園集合</string>
     <!-- 關於模組 -->
-    <string name="about">關於E寶貝</string>
+    <string name="about">關於智慧岛</string>
     <string name="version">版本</string>
     <string name="aboutchinacampus">關於大塘拔萃</string>
-    <string name="about_detailed">E寶貝是面向教育機構的家園溝通平臺，家長可隨時隨地通過E寶貝瞭解教育機構簡介、通知、課程資訊和互動交流等，加強與學校間的互動，共同關注寶貝成長。如果您有改進和更新功能的建議，我們非常樂意傾聽。</string>
-    <string name="copyright">運營服務商:廣州澳星軟體科技有限公司\n服務熱線:400-700-6560\n技術研發商:廣州熱點軟體有限公司</string>
+    <string name="about_detailed">智慧岛是面向教育機構的家園溝通平臺，家長可隨時隨地通過智慧岛移瞭解教育機構簡介、通知、課程資訊和互動交流等，加強與學校間的互動，共同關注寶貝成長。如果您有改進和更新功能的建議，我們非常樂意傾聽。</string>
+    <string name="copyright">運營服務商:智慧岛科技有限公司\n服務熱線:400-700-6560\n技術研發商:智慧岛科技有限公司</string>
     <string name="remenber_profile_key">記住Profile key</string>
     <string name="profile_key_prompt">請輸入Profile Key</string>
     <string name="customhttp">申請定制:</string>
     <string name="telephone_call">或撥打電話客戶熱線:</string>
-    <string name="company">城市熱點有限公司</string>
+    <string name="company">智慧岛科技有限公司</string>
     <string name="customize">定製版</string>
     <string name="demonstrate">標準版</string>
-    <string name="httplink">http://www.doctorcom.com/drpalm</string>
-    <string name="phonelink">400–700–6560</string>
-    <string name="iddail">撥打電話 400–700–6560</string>
-    <string name="hotlinetitle">E寶貝客服竭誠為您服務</string>
-    <string name="sharesubject">幼教移動用戶端</string>
+    <string name="httplink">http://www.xxx.com/WisdomIsland</string>
+    <string name="phonelink">400–111-111</string>
+    <string name="iddail">撥打電話 400–111-111</string>
+    <string name="hotlinetitle">智慧岛客服竭誠為您服務</string>
+    <string name="sharesubject">智慧岛移動用戶端</string>
     <string name="shareerrormessage">您的系統沒有安裝這個程式</string>
-    <string name="sharetitle">我剛安裝了E寶貝移動用戶端，讓您可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，動動手指就能搞定，快來體驗吧！下載地址：</string>
-    <string name="shareurl">http://www.astar.so/WisdomIsland/</string>
+    <string name="sharetitle">我剛安裝了智慧岛移動用戶端，讓您可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，動動手指就能搞定，快來體驗吧！下載地址：</string>
+    <string name="shareurl">http://www.xxx.so/WisdomIsland/</string>
     <!-- 登錄 -->
     <string name="onlinelogin">線上登錄</string>
     <string name="offlinelogin">離線登錄</string>
