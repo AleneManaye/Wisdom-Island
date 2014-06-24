@@ -108,11 +108,11 @@ public abstract class ModuleActivity extends BaseDrawColseActivity {
 			}
 		});
 
-		if (this.mBitmapTitleLogo != null) {
-			setTitleLogo(this.mBitmapTitleLogo);
-		}else{
-			ImageView_Logo.setImageBitmap( ((BitmapDrawable) getResources().getDrawable(R.drawable.defaulttitlelogo)).getBitmap());
-		}
+//		if (this.mBitmapTitleLogo != null) {
+//			setTitleLogo(this.mBitmapTitleLogo);
+//		}else{
+//			ImageView_Logo.setImageBitmap( ((BitmapDrawable) getResources().getDrawable(R.drawable.defaulttitlelogo)).getBitmap());
+//		}
 
 		
 		initReceiver();
