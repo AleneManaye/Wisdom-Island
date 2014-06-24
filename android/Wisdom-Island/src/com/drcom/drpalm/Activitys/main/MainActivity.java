@@ -378,7 +378,7 @@ public class MainActivity extends ModuleActivity {
 		});
 
 		// ToolbarAddRightButton(btnAdd);
-		setTitleRightButton(btnAdd);
+//		setTitleRightButton(btnAdd);
 
 		// 返回导航
 		if(GlobalVariables.getAppDefaultSchoolKey()){

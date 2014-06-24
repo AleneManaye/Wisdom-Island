@@ -47,18 +47,18 @@
     </string-array>
     <string name="infant_diet">幼兒食譜</string>
     <string name="parenting">育兒知識</string>
-    <string name="courseware">班級計劃</string>
-    <string name="face2face">家園橋</string>
+    <string name="courseware">班級作业</string>
+    <string name="face2face">交流平台</string>
     <string name="video">班級影音</string>
     <string name="draft">草稿箱</string>
     <string name="sysinfo">系統資訊</string>
     <string name="sent">已發消息</string>
     <string name="hjt">互教通\n(考勤)</string>
     <string name="ask4leave">告假申請</string>
-    <string name="exit_sure2">要退出E寶貝嗎？</string>
+    <string name="exit_sure2">要退出智慧岛嗎？</string>
     <string name="logout_sure">需要切換學校嗎？這樣會註銷哦</string>
     <string name="enter">進入</string>
-    <string name="welcomesharecontent">我剛安裝了E寶貝Android用戶端，家長可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，共同關注幼兒成長，動動手指就能搞定，快來體驗吧！下載地址：</string>
+    <string name="welcomesharecontent">我剛安裝了智慧岛Android用戶端，家長可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，共同關注幼兒成長，動動手指就能搞定，快來體驗吧！下載地址：</string>
     <string name="welcomeback">歡迎回來:</string>
     <!-- 告假申請 -->
     <string name="leave_application">告假</string>
@@ -117,7 +117,7 @@
     <string-array name="eventscategory">
         <item>班級通知</item>
         <item>班級評語</item>
-        <item>班級計劃</item>
+        <item>班級作业</item>
         <item>班級活動</item>
         <item>班級相冊</item>
     </string-array>

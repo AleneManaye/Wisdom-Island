@@ -47,8 +47,8 @@
     </string-array>
     <string name="infant_diet">幼儿食谱</string>
     <string name="parenting">育儿知识</string>
-    <string name="courseware">班级计划</string>
-    <string name="face2face">家园桥</string>
+    <string name="courseware">班级作业</string>
+    <string name="face2face">交流平台</string>
     <string name="video">班级影音</string>
     <string name="draft">草稿箱</string>
     <string name="sysinfo">系统信息</string>
@@ -115,9 +115,9 @@
     <string name="attachment_exists">附件已存在</string>
     <!-- EventsModule -->
     <string-array name="eventscategory">
-        <item>班级通知</item>
+        <item>班级通告</item>
         <item>班级评语</item>
-        <item>班级计划</item>
+        <item>班级作业</item>
         <item>班级活动</item>
         <item>班级相册</item>
     </string-array>
@@ -157,8 +157,8 @@
     <string name="month">月</string>
     <string name="day">日</string>
     <string name="week">周</string>
-    <string name="classnews">班级通知</string>
-    <string name="urgent">班级通知</string>
+    <string name="classnews">班级通告</string>
+    <string name="urgent">班级通告</string>
     <string name="studentnotice">E宝快照</string>
     <string name="schoolnotice">班级评语</string>
     <string name="homework">最新课件</string>

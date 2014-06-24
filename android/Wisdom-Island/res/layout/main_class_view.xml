@@ -31,7 +31,8 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"
                     android:background="@drawable/bookmark_btn_small_1_selector"
-                    android:text="" />
+                    android:text="" 
+                    android:visibility="gone" />
 
                 <Button
                     android:id="@+id/buttonSearch"
@@ -41,7 +42,8 @@
                     android:layout_marginRight="10dp"
                     android:layout_toLeftOf="@+id/buttonBookmark"
                     android:background="@drawable/search_btn_small_1_selector"
-                    android:text="" />
+                    android:text="" 
+                    android:visibility="gone" />
             </RelativeLayout>
 
             <LinearLayout
