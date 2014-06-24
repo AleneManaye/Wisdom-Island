@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ScrollView
+      android:id="@+id/about_app_scrollview"
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+	  
+	  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_app_relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_app_relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bglightblue"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tblayout_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/shape_bg_corners"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="15dip"
+                android:text="@string/version"
+                android:textColor="#000000"
+                android:textSize="@dimen/TextDefaultSize" />
+
+            <TextView
+                android:id="@+id/version_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:textColor="#000000"
+                android:textSize="@dimen/TextDefaultSize" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="5dip"
+            android:background="#CCCCCC" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="130dp" >
+
+            <TextView
+                style="@style/EventsListItemBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:gravity="left"
+                android:text="@string/about_detailed"
+                android:textSize="16dp"
+                android:textColor="#000000" />
+        </ScrollView>
+    </TableLayout>
+
+    <TextView
+        style="@style/EventsListItemBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="25dip"
+        android:background="@null"
+        android:gravity="left"
+        android:text="@string/copyright"
+        android:textSize="14dp"
+        android:textColor="#000000" />
+
+</LinearLayout><!-- </ScrollView>
+ -->

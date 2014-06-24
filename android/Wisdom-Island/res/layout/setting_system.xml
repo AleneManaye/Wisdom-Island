@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bglightgray" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- wifi -->
+
+            <RelativeLayout
+                android:id="@+id/datausagebtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg_corners"
+                android:orientation="horizontal" >
+
+                <!--  
+                <CheckBox
+                    android:id="@+id/onlywifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true" />
+                -->
+                <com.drcom.ui.View.controls.SlipBtn.SlipButton
+			        android:id="@+id/slipbutton_onlywifi"
+			        android:layout_width="68dip"
+			        android:layout_height="40dip"
+			        android:layout_alignParentRight="true"
+			        android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:text="@string/onlyusewifi"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/TextDefaultSize" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textviewwifiremind"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dp"
+                android:text="@string/wifiremind"
+                android:textColor="#000000" />
+            <!-- 推送 -->
+
+            <TableLayout
+                android:id="@+id/system_pushblock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg_corners"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dip"
+                    android:orientation="horizontal" >
+
+                    <!-- 
+                    <CheckBox
+                        android:id="@+id/checkbox_system_push"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true" />
+                    -->
+                    <com.drcom.ui.View.controls.SlipBtn.SlipButton
+				        android:id="@+id/slipbutton_system_push"
+				        android:layout_width="68dip"
+				        android:layout_height="40dip"
+				        android:layout_alignParentRight="true"
+				        android:layout_alignParentTop="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/startPush"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+                </RelativeLayout>
+
+                <!-- 声音 -->
+
+                <RelativeLayout
+                    android:id="@+id/settingSound"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dip"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#CCCCCC" />
+
+                    <!-- 
+                    <CheckBox
+                        android:id="@+id/checkbox_system_sound"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="1dp" />
+                     -->
+                    <com.drcom.ui.View.controls.SlipBtn.SlipButton
+				        android:id="@+id/slipbutton_system_sound"
+				        android:layout_width="68dip"
+				        android:layout_height="40dip"
+				        android:layout_alignParentRight="true"
+				        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/checkbox_system_sound_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/pushSound"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+                </RelativeLayout>
+
+                <!-- 振动 -->
+
+                <RelativeLayout
+                    android:id="@+id/settingShacke"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dip"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentTop="true"
+                        android:background="#CCCCCC" />
+
+                    <!-- 
+                    <CheckBox
+                        android:id="@+id/checkbox_system_shake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true" />
+                    -->
+                    <com.drcom.ui.View.controls.SlipBtn.SlipButton
+				        android:id="@+id/slipbutton_system_shake"
+				        android:layout_width="68dip"
+				        android:layout_height="40dip"
+				        android:layout_alignParentRight="true"
+				        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/checkbox_system_shake_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/pushShake"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+                </RelativeLayout>
+
+                <!-- 推送时间段设置 -->
+
+                <RelativeLayout
+                    android:id="@+id/settingTime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:layout_alignParentTop="true"
+                        android:background="#CCCCCC" />
+
+                    <TextView
+                        android:id="@+id/setting_pushtime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+
+                    <TextView
+                        android:id="@+id/setting_pushtime_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/pushTimeSet"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+
+                    <CheckBox
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </TableLayout>
+            <!-- 清除数据 -->
+
+            <TableLayout
+                android:id="@+id/system_cleardata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_bg_corners"
+                android:orientation="vertical" >
+
+                <!-- 清除离线消息 -->
+
+                <RelativeLayout
+                    android:id="@+id/clearnews"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dip"
+                    android:orientation="horizontal"
+                    android:background="@drawable/table_item_selector" >
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/system_clearnews"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/system_clear_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#CCCCCC" />
+                <!-- 清除离线通告 -->
+
+                <RelativeLayout
+                    android:id="@+id/clearcnews"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dip"
+                    android:orientation="horizontal"
+                    android:background="@drawable/table_item_selector" >
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/system_clearcnews"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/TextDefaultSize" />
+                </RelativeLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <SlidingDrawer
+        android:id="@+id/module_drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:clickable="false"
+        android:content="@+id/module_content"
+        android:handle="@+id/module_handle" >
+
+        <ImageView
+            android:id="@+id/module_handle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/album_photo_arrow_close"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/module_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msgbox_bg2"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/clearNewsDrawerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/msgbox_btn_white_selector"
+                android:text="@string/system_clearnews"
+                android:textColor="@color/dark_gray"
+                android:textSize="17dip" />
+
+            <Button
+                android:id="@+id/clearInfomation"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/msgbox_btn_red_selector"
+                android:text="@string/system_cancel"
+                android:textColor="@color/white"
+                android:textSize="17dip" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

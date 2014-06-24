@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg_main">
+    
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="20dp"
+       android:orientation="vertical">
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="标题"
+           android:textSize="16dp"/>
+       <EditText 
+           android:id="@+id/title_edit"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:singleLine="true"
+           android:textSize="16dp"
+           android:hint="标题"
+           android:layout_marginTop="5dp"/>
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="内容"
+           android:textSize="16dp"
+           android:layout_marginTop="5dp"/>
+       <EditText
+           android:id="@+id/content_Edit"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:textSize="16dp"
+           android:lines="4"
+           android:layout_marginTop="5dp"
+           android:hint="内容"
+           android:maxLines="4"
+           android:gravity="left|top"/>
+       
+   </LinearLayout>
+
+</LinearLayout>

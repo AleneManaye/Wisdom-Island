@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 只用作HTTP请求头中 -->
+    <string name="ResVersion">2</string>
+    
+    <!-- 数据库版本号,数据表修改需要升级该版本号 -->		
+    <string name="DBVersion">34</string>			
+
+	<!-- true为测试版,注:Manifest文件中,修改引用的android:label="@string/app_name_test"属性 -->
+    <string name="IsTestVersion">false</string>  
+    
+    <!-- 幼儿园集合ID -->
+    <string name="kgcollectionid">33</string> 
+    
+    <!-- 代理商ID(影响导航条列表数据) -->
+    <string name="agentid">1</string> 
+    
+    <!-- SchoolKey决定是否指定某间学校使用(SchoolKey为空，则有导航，否则没导航直接进入某学校) -->
+    <!--
+    <string name="SchoolKey">5phJ5Clb1W9561VcCAVjTT96TIC0iFWe</string>	
+    -->
+    <string name="SchoolKey">a08NW3THW517709KfKNgmnGMbgvp2ttA</string>		
+    
+</resources>

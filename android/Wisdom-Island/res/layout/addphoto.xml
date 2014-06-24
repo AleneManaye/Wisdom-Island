@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imgview_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <EditText
+        android:id="@+id/editText_des"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:hint="@string/description"
+        android:layout_alignParentBottom="true" >
+    </EditText>
+
+</RelativeLayout>

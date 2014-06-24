@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="eventIitle">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:typeface">sans</item>
+	</style>	
+	
+	<style name="eventsImageTitle">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:textColor">#ff505050</item>
+		<item name="android:typeface">sans</item>
+	</style>
+		<style name="eventsImageAuthor">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ff505050</item>
+		<item name="android:typeface">sans</item>
+	</style>
+	<style name="eventFromOrTo">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff8c8c8c</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="eventDetailIitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="eventeventDetailBody">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:typeface">sans</item>
+    </style>
+		    
+</resources>

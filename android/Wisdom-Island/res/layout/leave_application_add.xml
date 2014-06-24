@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#FFFFFF">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/vacation_type"
+                    android:layout_height="45dp"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:textColor="@color/black"
+                    android:background="@drawable/text_bg_selector"
+                    >
+            </TextView>
+
+            <LinearLayout
+                    android:id="@+id/vacation_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:weightSum="11"
+                    android:orientation="horizontal"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    >
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/shape_bg_corners"
+                        android:layout_weight="11"
+                        android:weightSum="10"
+                        >
+
+                    <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/diary_title"/>
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9.74"
+                        android:background="@color/white"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/vacation_receiver"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:weightSum="10"
+                    android:background="@drawable/text_bg_selector">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="@string/addressee"/>
+
+                <TextView
+                    android:id="@+id/tv_receiver"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:maxEms="12"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                    android:id="@+id/vacation_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape_bg_corners"
+                    >
+                <RelativeLayout
+                        android:id="@+id/begin_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp">
+
+                    <TextView
+                            android:id="@+id/tv_begin_time_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:text="@string/start"/>
+
+                    <TextView
+                            android:id="@+id/tv_begin_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/tv_begin_time_title"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                </RelativeLayout>
+
+                <TextView
+                        android:id="@+id/divider_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/line1"
+                        android:layout_centerInParent="true"/>
+
+                <RelativeLayout
+                        android:id="@+id/end_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/divider_line"
+                        android:layout_margin="15dp"
+                        >
+
+                    <TextView
+                            android:id="@+id/tv_end_time_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:text="@string/end"/>
+
+                    <TextView
+                            android:id="@+id/tv_end_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/tv_end_time_title"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape_bg_corners"
+                    >
+                <EditText
+                        android:id="@+id/et_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="120dp"
+                        android:gravity="top"
+                        android:padding="10dp"
+                        android:hint="@string/leave_saySomething"
+                        android:textSize="15sp"
+                        android:background="@drawable/shape_bg_corners"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/vacation_attachment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/text_bg_selector">
+
+                <ImageView
+                        android:id="@+id/iv_attachment"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/attachment_middle"/>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/iv_attachment"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="@string/attachment"/>
+
+                    <TextView
+                            android:id="@+id/attr_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="10dp"
+                            android:text="0 "/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <SlidingDrawer
+            android:id="@+id/module_drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:clickable="false"
+            android:layout_alignParentBottom="true"
+            android:content="@+id/module_content"
+            android:handle="@+id/module_handle" >
+
+        <ImageView
+                android:id="@+id/module_handle"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:src="@drawable/album_photo_arrow_close"
+                android:visibility="gone" />
+
+        <LinearLayout
+                android:id="@+id/module_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/msgbox_bg2"
+                android:padding="20dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+    </SlidingDrawer>
+</RelativeLayout>

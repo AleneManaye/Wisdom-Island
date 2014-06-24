@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="ListViewHeaderTextSize">9sp</dimen>
+	<dimen name="SlightBarTextSize">14sp</dimen>
+	<dimen name="CatalogbarTextSize">9sp</dimen>
+	<dimen name="TextDefaultSize">18sp</dimen>
+	<dimen name="ModuleTipsTextSize">12sp</dimen>
+	
+	<!-- 通告ListItem标题字体 -->
+	<style name="EventsListItemTitle">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/list_item_primary_color</item>
+		<item name="android:typeface">sans</item>
+	</style>
+
+	<!-- 通告ListItem内容字体 -->
+	<style name="EventsListItemBody">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:typeface">sans</item>
+	</style>
+
+	<!-- 已发通告ListItem内容字体 -->
+	<style name="EventsAlreadySendListItemBody">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#ff8c8c8c</item>
+		<item name="android:typeface">sans</item>
+	</style>
+	
+		<!-- 通告详细标题字体 -->
+	<style name="EventsDetailTitle">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">24sp</item>
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:typeface">sans</item>
+	</style>
+
+	<!-- 通告详细内容字体 -->
+	<style name="EventsDetailBody">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:typeface">sans</item>
+	</style>
+</resources>

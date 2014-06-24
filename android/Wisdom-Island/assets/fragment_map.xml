@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragments>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment1</fragment>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment2</fragment>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment3</fragment>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment4</fragment>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment5</fragment>
+    <fragment>com.drcom.drpalm.Activitys.fragments.StartFragment6</fragment>
+</fragments>

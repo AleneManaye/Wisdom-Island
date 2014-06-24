@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+ 
+        <RelativeLayout
+        	android:id="@+id/newsLisTitleLLyout"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/school_msgtitle_1" >
+            <Button
+                android:id="@+id/news_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/more_btn_selector"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <com.drcom.drpalm.View.controls.NoScrollListview
+            android:id="@+id/newsListview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/eventsLisTitleLLyout"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/class_msgtitle_1" >
+            <Button
+                android:id="@+id/events_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/more_btn_selector"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <com.drcom.drpalm.View.controls.NoScrollListview
+            android:id="@+id/eventsListview"
+            style="@style/Lists"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+	</LinearLayout>
+</ScrollView>

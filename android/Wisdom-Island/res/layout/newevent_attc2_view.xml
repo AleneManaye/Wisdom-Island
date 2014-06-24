@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/Textview_sum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    
+    <com.drcom.drpalm.View.controls.CoverFlow.CoverFlow
+        android:id="@+id/Gallery01"
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:layout_centerVertical="true"
+        android:descendantFocusability="beforeDescendants" />
+
+    <EditText
+        android:id="@+id/newevent_attc_des_Edittxt"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:hint="@string/description"
+        android:gravity="top"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

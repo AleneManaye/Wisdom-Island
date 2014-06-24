@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/events_row_hk_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/eventslist_item_bg_selector"
+    android:gravity="center_vertical" >
+
+    <!-- 未读标志 -->
+    <LinearLayout android:id="@+id/Mark_layout"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal" >
+        <ImageView android:id="@+id/Imgview_unreadmark"
+            android:layout_width="20dp"
+        	android:layout_height="20dp"
+        	android:layout_marginTop="10dp"
+        	android:src="@drawable/unread_mark"
+        	android:visibility="gone"/>
+    </LinearLayout>
+    
+    <!-- 图标 -->
+    <LinearLayout
+        android:id="@+id/IV_layout"
+        android:layout_toRightOf="@id/Mark_layout"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:background="@drawable/news_item_imagebg" >
+
+        <ImageView
+            android:id="@+id/newsRowIV"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/no_pic" />
+    </LinearLayout>
+
+    
+    
+    <!-- body -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_toRightOf="@+id/IV_layout"
+        android:gravity="center_vertical"
+        android:layout_marginRight="22dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:paddingTop="1dip" >
+            
+            <!-- 已发阅读数 -->
+            <TextView  android:id="@+id/eventsTitle_ReadCount"
+                style="@style/ListItemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0/0"
+                android:visibility="gone" />
+            
+            <!-- 已发(别人) -->
+            <ImageView android:id="@+id/Imgview_eventssend_other"
+                android:src="@drawable/eventsend_other"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"/>
+                      
+            <!-- 标题 -->
+            <TextView
+                android:id="@+id/eventsTitle_Txtview"
+                style="@style/ListItemTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/eventsTitle_ReadCount"
+                android:layout_toRightOf="@id/Imgview_eventssend_other"
+                android:layout_marginLeft="6dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="title" />
+        </RelativeLayout>
+
+        <!-- 描述 -->
+        <TextView
+            android:id="@+id/eventsSummary_Txtview"
+            style="@style/ListItemSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dip"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="2dip"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <!-- 图标列表 -->
+        <LinearLayout
+            android:id="@+id/event_icon_Llayout"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginTop="2dp" >
+
+            <ImageView
+                android:id="@+id/event_rowbookmark"
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/bookmark_small" />
+
+            <ImageView
+                android:id="@+id/event_rowattachment"
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/attachment_small" />
+
+            <ImageView
+                android:id="@+id/event_isPrize"
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/important_small" />
+
+            <ImageView
+                android:id="@+id/event_feedback"
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/feedback_small" />
+            
+            <ImageView
+                android:id="@+id/event_needreview"
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/review_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 日期 -->
+    <TextView
+        android:id="@+id/eventsDate_Txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:paddingBottom="3dip"
+        android:textColor="@color/orange"
+        android:text="2012-12-12"
+        android:textSize="12dp" />
+
+    <!-- 箭头 -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/arrow_next" />
+</RelativeLayout>

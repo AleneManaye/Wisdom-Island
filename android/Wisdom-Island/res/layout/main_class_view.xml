@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- BODY -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/Layout_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/class_msgtitle_1" >
+
+                <Button
+                    android:id="@+id/buttonBookmark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bookmark_btn_small_1_selector"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/buttonSearch"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/buttonBookmark"
+                    android:background="@drawable/search_btn_small_1_selector"
+                    android:text="" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/mainclass_Layout_gridview1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp" >
+
+                <!-- 发送信息 -->
+
+                <com.drcom.drpalm.View.controls.MyGridView
+                    android:id="@+id/mainclass_gridview1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="60dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/Layout_middle"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/class_msgtitle_2" >
+
+                <Button
+                    android:id="@+id/button_newevent"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/add_btn_small_1_selector"
+                    android:text="" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/mainclass_Layout_gridview2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp" >
+
+                <!-- 我的班级 -->
+
+                <com.drcom.drpalm.View.controls.MyGridView
+                    android:id="@+id/mainclass_gridview2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="60dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

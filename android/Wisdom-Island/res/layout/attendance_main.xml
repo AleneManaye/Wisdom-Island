@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/attendance_background_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/month_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/attendance_blue_border"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/month_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/attendance_all_status"
+            android:textColor="#3392ae"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/normal_days"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/attendance_normal"
+                android:textColor="#3392ae"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/unusual_days"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/attendance_unusual"
+                android:textColor="#3392ae"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/absent_days"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/attendance_absent"
+                android:textColor="#3392ae"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/attendance_border"
+        android:orientation="vertical" >
+
+        <com.drcom.drpalm.View.controls.RefreshListView
+            android:id="@+id/statusList"
+            style="@style/Lists"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+</LinearLayout>

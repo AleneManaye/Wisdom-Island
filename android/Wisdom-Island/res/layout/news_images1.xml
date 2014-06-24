@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bglightgray" >
+
+    <!-- body -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativlayout_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" >
+
+            <!-- 图片 -->
+
+            <com.drcom.drpalm.View.controls.MyGallery
+                android:id="@+id/albumdetail_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:fadingEdge="none"
+                android:spacing="100dp" />
+            <!-- 小圆点 -->
+
+            <com.drcom.drpalm.View.controls.PageIndicatorView
+                android:id="@+id/datamall_pageControl"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:gravity="center" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/news_progressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar_xml"
+        android:visibility="gone" >
+    </ProgressBar>
+    <!-- 标题 -->
+
+    <LinearLayout
+        android:id="@+id/linear_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/titlebar"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/title_imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="3dp" />
+
+            <LinearLayout
+                android:id="@+id/Layoutright_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp" >
+
+                <Button
+                    android:id="@+id/title_button_right1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/title_progressBar1"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/title_button_left1"
+                style="@style/TitleBtnText"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp"
+                android:background="@drawable/btn_title_right_blue_selector"
+                android:text="@string/btn_back" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <!-- 附件名字 -->
+    <LinearLayout android:id="@+id/linear_attmsg"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="@color/aphlered"
+        android:layout_alignParentBottom="true" >
+        
+        <TextView
+            android:id="@+id/textview_attname"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_weight="1.0"
+	        android:textSize="18dp"
+	        android:textColor="@android:color/black"
+	        android:ellipsize="middle"
+	        android:singleLine="true"
+	        android:text="" />
+        
+        <TextView
+            android:id="@+id/textview_positon"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_weight="3.0"
+	        android:gravity="center_horizontal"
+	        android:textSize="18dp"
+	        android:textColor="@android:color/black"
+	        android:text="0/0" />
+    </LinearLayout>
+    
+    <!-- 底部按钮布局 -->
+    <LinearLayout
+        android:id="@+id/linear_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/toolbar_bg"
+            android:gravity="bottom" >
+
+            <LinearLayout
+                android:id="@+id/linear_toolbar_Left1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_toolbar_Right1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    
+    
+    <!-- 功能菜单  
+	    <SlidingDrawer
+	        android:id="@+id/drawer_menu"
+	        android:layout_width="fill_parent"
+	        android:layout_height="300dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="-10dp"
+	        android:clickable="false"
+	        android:content="@+id/module_content"
+	        android:handle="@+id/module_handle" >
+	
+	        <ImageView
+	            android:id="@+id/module_handle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	            android:visibility="gone" />
+	
+	        <LinearLayout
+	            android:id="@+id/module_content"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/msgbox_bg2"
+	            android:orientation="vertical" >
+	
+	            <Button
+	                android:id="@+id/DrawerButtonRetransmission"
+	                android:layout_width="fill_parent"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginTop="30dp"
+	                android:background="@drawable/msgbox_btn_white_selector"
+	                android:text="@string/retransmission"
+	                android:textColor="@color/dark_gray"
+	                android:textSize="17dip" />
+	
+	            <Button
+	                android:id="@+id/DrawerButtonReplace"
+	                android:layout_width="fill_parent"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginTop="10dp"
+	                android:background="@drawable/msgbox_btn_red_selector"
+	                android:text="@string/replace"
+	                android:textColor="@color/white"
+	                android:textSize="17dip" />
+	            
+	            <Button
+	                android:id="@+id/DrawerButtonDel"
+	                android:layout_width="fill_parent"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginTop="10dp"
+	                android:background="@drawable/msgbox_btn_red_selector"
+	                android:text="@string/del"
+	                android:textColor="@color/white"
+	                android:textSize="17dip" />
+	            
+	            <Button
+	                android:id="@+id/DrawerButtonCancel"
+	                android:layout_width="fill_parent"
+	                android:layout_height="40dp"
+	                android:layout_marginLeft="20dp"
+	                android:layout_marginRight="20dp"
+	                android:layout_marginTop="20dp"
+	                android:background="@drawable/msgbox_btn_red_selector"
+	                android:text="@string/cancel"
+	                android:textColor="@color/white"
+	                android:textSize="17dip" />
+	            
+	        </LinearLayout>
+	    </SlidingDrawer>
+    -->
+
+</RelativeLayout>

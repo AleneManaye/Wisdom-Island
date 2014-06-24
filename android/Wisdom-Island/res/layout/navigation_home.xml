@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/ScrollView" 
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:scrollbars="vertical"
+    android:background="#ffffff">
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        "
+  		<com.drcom.drpalm.View.controls.CornerListView
+  	    	android:id="@+id/school_listview"
+  	    	android:layout_width="fill_parent"
+  	    	android:layout_height="wrap_content"
+  	    	android:layout_marginLeft="20dp"
+  	    	android:layout_marginRight="20dp"
+  	    	android:layout_marginTop="10dp"/>
+  		
+		<com.drcom.drpalm.View.controls.CornerListView
+  	    	android:id="@+id/sort_listview"
+  	    	android:layout_width="fill_parent"
+  	    	android:layout_height="wrap_content"
+  	    	android:layout_marginLeft="20dp"
+  	    	android:layout_marginRight="20dp"
+  	    	android:layout_marginTop="10dp"/>
+		
+	</LinearLayout>
+		
+</LinearLayout>

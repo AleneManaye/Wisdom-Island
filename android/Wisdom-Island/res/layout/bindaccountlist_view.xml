@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/bindaccount_listview"
+            android:layout_width="fill_parent"
+	        android:cacheColorHint="#00000000"
+	        android:divider="#E2E4E3"
+	        android:dividerHeight="1dp"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/module_drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:clickable="false"
+        android:content="@+id/module_content"
+        android:handle="@+id/module_handle" >
+
+        <ImageView
+            android:id="@+id/module_handle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/album_photo_arrow_close"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/module_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msgbox_bg2"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/addDrawerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/msgbox_btn_white_selector"
+                android:text="@string/add"
+                android:textColor="@color/dark_gray"
+                android:textSize="17dip" />
+
+            <Button
+                android:id="@+id/delDrawerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/msgbox_btn_white_selector"
+                android:text="@string/del"
+                android:textColor="@color/dark_gray"
+                android:textSize="17dip" />
+
+            <Button
+                android:id="@+id/cancelDrawerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/msgbox_btn_red_selector"
+                android:text="@string/system_cancel"
+                android:textColor="@color/white"
+                android:textSize="17dip" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

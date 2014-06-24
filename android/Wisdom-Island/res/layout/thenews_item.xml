@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/newslist_item_bg_selector"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/IV_layout"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp" >
+
+        <ImageView
+            android:id="@+id/thenewsRowIV"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/thenews_number_txtv"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/nubmer_bg"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/thenewsModuleName_Txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thenewsTitle_Txtview"
+        android:layout_marginTop="3dp"
+        android:text="ModuleName"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    
+    <TextView
+        android:id="@+id/thenewsTitle_Txtview"
+        style="@style/ListItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/IV_layout"
+        android:layout_below="@+id/thenewsModuleName_Txtview"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="1dip"
+        android:text="title"
+        android:textColor="@color/dark_gray"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/thenewsDate_Txtview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/thenewsTitle_Txtview"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/IV_layout"
+        android:gravity="right"
+        android:paddingBottom="3dip"
+        android:text="2010-01-01"
+        android:textColor="@color/orange"
+        android:textSize="14dp" />
+
+    
+
+</RelativeLayout>

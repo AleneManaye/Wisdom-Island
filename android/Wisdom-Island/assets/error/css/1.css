@@ -1,0 +1,50 @@
+﻿/* CSS Document */
+@charset "utf-8";
+body{
+	padding:0;
+	width:auto !important;
+	/* [disabled]width:800px;*/
+	/* [disabled]min-width:800px; */
+	margin:0;
+	background-color:#baefff;
+}
+img {border:0;}
+.logo{
+	height:91px;
+	text-align:center;
+}
+.main{
+	/* [disabled]width:800px; */
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text{
+	/* [disabled]width:730px; */
+	margin:0 auto 0 auto;
+	font-family: "宋体";
+	font-size: 25px;
+	line-height:35px;
+	word-break:break-all;
+	color:#505155;
+}
+.text-main{
+	/* [disabled]width:730px; */
+	margin:0 auto 0 auto;
+	font-family: "宋体";
+	font-size: 25px;
+	line-height:35px;
+	word-break:break-all;
+	color:#969696;
+}
+.t{
+	height:200px;
+	text-align:center;
+}
+/*
+.photo {
+	height:258px;
+}
+*/

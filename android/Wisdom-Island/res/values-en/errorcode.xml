@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "InvalidSchoolKey">Invalid SchoolKey</string>
+ 	<string name="UnopenSchoolGatway">School gateway unopen</string>
+ 	
+ 	<string name = "AccountNotExist">Account is not exist</string>
+    <string name = "LoginInfoNotMatch">Account or password error</string>
+    <string name = "LoginParamEmpty">Account、password、School ID is empty</string>
+    <string name = "InvalidSessionKey">Invalid SessionKey</string>
+    
+    <string name = "InvalidSchoolId">Invalid chool ID</string>
+    <string name = "SchoolIdisEmpty">School ID is empty</string>
+    
+    <string name = "NotTeacher">Is not teacher</string>
+    <string name = "OrgNotExist">Organization is not exist</string>
+    
+    <string name = "EventStartDateEmpty">Event Start time is empty</string>
+    <string name = "EventEndDateEmpty">Event end time is empty</string>
+    <string name = "ReceiverIDEmpty">Event receiver ID is empty</string>
+    <string name = "ReceiverNameEmpty">Event receiver name is empty</string>
+    <string name = "EventLocationEmpty">Event location is empty</string>
+    <string name="EventTypeEmpty">Event type is empty</string>
+    <string name="EventTitleEmpty">Event title is empty</string>
+    <string name = "EventContentEmpty">Event content is empty</string>
+    <string name="EventUnknowError">Unknow Error</string>
+    <string name="EventInvalidEventID">Invalid event ID</string>
+  
+    <string name="ReplyTitleEmpty">Reply title is empty</string>
+    <string name="ReplyContentEmpty">Reply content is empty</string>
+    
+    <string name="AttendanceErrorParam">Incorrect parameter</string>
+    <string name="AccountIsRepeatBinding">the Account is repeat binding</string>
+</resources>

@@ -1,0 +1,7 @@
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+   android:label="@string/news_search_label"
+   android:hint="hint"
+   android:searchMode="showSearchLabelAsBadge"
+   android:searchSuggestAuthority="com.drcom.drpalm.news.SuggestionsProvider"
+   android:searchSuggestSelection=" ?"
+/>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>		       
+	<integer-array name="EventsID">
+		<item>-3</item>		
+		<item>0</item>		
+		<item>1</item>		
+		<item>2</item>		
+		<item>3</item>
+		<item>4</item>		
+		<item>-4</item>			
+	</integer-array>
+	<!-- 0:All access 1:teacher access -->
+	<integer-array name="EventsAccess">
+		<item>0</item>		
+		<item>0</item>		
+		<item>0</item>		
+		<item>0</item>		
+		<item>0</item>
+		<item>1</item>		
+		<item>1</item>			
+	</integer-array>
+	<!-- 0:local 1:type1 2:type2 and so on -->
+	<integer-array name="EventsLocal">
+		<item>1</item>		
+		<item>1</item>		
+		<item>1</item>		
+		<item>1</item>		
+		<item>1</item>
+		<item>2</item>		
+		<item>0</item>			
+	</integer-array>
+	<!-- 0:NO subList 1:subList -->
+	<integer-array name="EventsType">
+		<item>0</item>		
+		<item>0</item>		
+		<item>0</item>		
+		<item>1</item>		
+		<item>0</item>
+		<item>0</item>		
+		<item>0</item>			
+	</integer-array>
+	<string-array name="EventsName">
+		<item>全部</item>		
+		<item>紧急通知</item>		
+		<item>学生记录</item>		
+		<item>校内通告</item>		
+		<item>家课</item>
+		<item>已发通告</item>		
+		<item>草稿</item>			
+	</string-array>
+	
+</resources>

@@ -1,0 +1,14 @@
+关于创建新的动画式导航页:
+
+1.继承BaseStartFragment类
+
+    重写animationStart()方法    ---> 该有什么动画
+    重写setImages()方法         ---> 图片什么的在什么位置
+    重写
+        getPic()
+        getTPic()
+        getEnPic()
+                                --->获取各种语言的图片
+
+    配置assets文件夹下的fragment_map.xml文件
+                                --->生成Fragment

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bglightgray" >
+
+    <com.drcom.drpalm.View.controls.MyWebview
+        android:id="@+id/news_detail_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+    <SlidingDrawer
+        android:id="@+id/tellFriend_drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:clickable="false"
+        android:content="@+id/module_content"
+        android:handle="@+id/module_handle" >
+
+        <ImageView
+            android:id="@+id/module_handle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/album_photo_arrow_close"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/module_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/msgbox_bg2"
+            android:orientation="vertical" >
+			<FrameLayout 
+			    android:id="@+id/viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"></FrameLayout>
+            <com.drcom.drpalm.View.controls.PageControlView
+                android:id="@+id/more_pageControl"
+                android:layout_width="fill_parent"
+                android:layout_height="40px"
+                android:alpha="0"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/msgbox_btn_red_selector"
+                android:text="@string/system_cancel"
+                android:textColor="@color/white"
+                android:textSize="17dip" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

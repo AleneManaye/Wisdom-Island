@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/eventslist_item_bg_selector" >
+
+    <TextView
+        android:id="@+id/replyerlist_item_name_txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/replyerlist_item_date_txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textColor="@color/orange"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/replyerlist_item_imgview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/replyerlist_item_name_txtview"
+        android:src="@drawable/new_feedback_small" />
+
+</RelativeLayout>

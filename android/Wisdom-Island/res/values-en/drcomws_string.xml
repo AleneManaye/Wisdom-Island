@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="Username">Username:</string>
+    <string name="Password">Password:</string>
+    <string name="username">username</string>
+	<string name="login">Login</string>
+	<string name="OK">OK</string>
+	<string name="Cancel">Cancel</string>
+	<string name="Tips">Tips</string>
+	<string name="Min">Min</string>
+	<string name="MByte">MByte</string>
+	<string name="Used_time">"Used time:"</string>
+	<string name="Used_flux">"Used flux:"</string>
+	<string name="Remember_my_password">"Remember my password"</string>
+	<string name="Sign_in_Automatically">"Sign in Automatically"</string>
+	<string name="Do_you_want_to_exist">"Do you want to exist?"</string>
+	<string name="Please_enter_your_username">"Please enter your username"</string>
+	<string name="Please_enter_your_password">"Please enter your password"</string>
+	<string name="This_equipment_already_online_do_not_need_to_log_in">"This equipment already online, do not need to log in"</string>
+	<string name="Can_not_find_Dr_COM_web_protocol">"Can not find Dr.COM web protocol"</string>
+	<string name="The_IP_does_not_allow_login_base_Dr_COM_web_technology">"The IP does not allow login base Dr.COM web technology"</string>
+	<string name="The_account_does_not_allow_login_base_Dr_COM_web_technology">"The account does not allow login base Dr.COM web technology"</string>
+	<string name="The_account_does_not_allow_change_password">"The account does not allow change password"</string>
+	<string name="Invalid_account_or_password_please_login_again">"Invalid account or password, please login again"</string>
+	<string name="This_account_is_tie_up_please_contact_network_administration_IP_MAC" formatted="false">"This account is tie up, please contact network administration IP(%s) MAC(%s)"</string>
+	<string name="This_account_use_on_appointed_address_only_IP">"This account use on appointed address only IP(%s)"</string>
+	<string name="This_account_charge_be_overspend_or_flux_over">"This account charge be overspend or flux over"</string>
+	<string name="This_account_be_break_off">"This account be break off"</string>
+	<string name="System_buffer_full">"System buffer full"</string>
+	<string name="This_account_is_tie_up_can_not_amend">"This account is tie up, can not amend"</string>
+	<string name="The_new_and_the_confirm_password_are_differ_can_not_amend">"The new and the confirm password are differ, can not amend"</string>
+	<string name="The_password_amend_successed">"The password amend successed"</string>
+	<string name="This_account_use_on_appointed_address_only_MAC">"This account use on appointed address only MAC(%s)"</string>
+	<string name="This_account_does_not_allow_use_NAT">"This account does not allow use NAT"</string>
+	<string name="Network_connection_interruption_check_the_network_configuration_please">"Network connection interruption, check the network configuration please"</string>
+</resources>

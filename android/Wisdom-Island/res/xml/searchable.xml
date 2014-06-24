@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="查询"
+    android:hint="请输入查询内容"
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>

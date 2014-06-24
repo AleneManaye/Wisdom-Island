@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<integer-array name="NewsTypeID">
+		<item>0</item>
+		<item>1001</item>
+		<item>2001</item>
+		<item>3001</item>
+		<item>4001</item>
+	</integer-array>
+	<string-array name="NewsType">
+		<item>全部</item>
+		<item>宣布</item>
+		<item>活动</item>
+		<item>奖项</item>
+		<item>媒体访问</item>
+	</string-array>
+</resources>

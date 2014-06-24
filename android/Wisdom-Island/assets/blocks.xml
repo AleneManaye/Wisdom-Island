@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+	<block id="1001" type="school" icon="icon_school_events" name="activity" namechs="校园活动" namecht="校園活動"
+	    nameen="Events">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="2001" type="school" icon="icon_school_infant_diet" name="infant_diet" namechs="午膳餐单" namecht="午膳餐單"
+	    nameen="Menus">
+		<show>
+			true
+		</show>
+	</block>
+
+	<block id="3001" type="school" icon="icon_school_news" name="news" namechs="校园新闻" namecht="校園新聞"
+	    nameen="News">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="4001" type="school" icon="icon_school_parenting" name="parenting" namechs="教育资讯" namecht="教育資訊"
+	    nameen="Health">
+		<show>
+			true
+		</show>
+	</block>
+
+	<block id="5001" type="school" icon="icon_school_album" name="album" namechs="校园相册" namecht="校園相冊"
+	    nameen="Gallery">
+		<show>
+			true
+		</show>
+	</block>
+
+	<block id="9996" type="school" icon="" name="" namechs="校长信箱" namecht="校長信箱"
+	    nameen="masteremail">	
+		<show>
+			true
+		</show>
+	</block>
+
+	<block id="1001" type="class" icon="icon_class_news" name="classnews" namechs="班级通知" namecht="班級通知"
+	    nameen="Inbox">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="2001" type="class" icon="icon_class_comment"  name="comment" namechs="班级评语" namecht="班級評語"
+	    nameen="Comments">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="3001" type="class" icon="icon_class_courseware" name="courseware" namechs="班级计划" namecht="班級計劃"
+	    nameen="Plan">
+		<show>
+			true
+		</show>
+	</block>
+
+	<block id="4001" type="class" icon="icon_class_activitys"  name="classactivity" namechs="班级活动" namecht="班級活動"
+	    nameen="Activities">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="5001" type="class" icon="icon_class_album" name="classalbum" namechs="班级相册" namecht="班級相冊"
+	    nameen="Class Album">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="6001" type="class" icon="icon_class_video" name="video" namechs="班级影音" namecht="班級影音"
+	    nameen="Class Video">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="9995" type="class" icon="icon_class_face2face" name="face2face" namechs="家园桥" namecht="家園橋"
+	    nameen="Home Bridge">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="9994" type="class" icon="icon_class_entryexit" name="hjt" namechs="互教通\n(考勤)" namecht="互教通\n(考勤)"
+	    nameen="HJT Mobile">
+		<show>
+			false
+		</show>
+	</block>
+
+	<block id="9998" type="class" icon="icon_class_sysinfo" name="sysinfo" namechs="系统信息" namecht="系統信息"
+	    nameen="System">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="9992" type="class" icon="icon_class_ask4leave" name="ask4leave" namechs="告假申请" namecht="告假申請"
+	    nameen="Absence">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="9999" type="classt" icon="icon_class_sent" name="sent" namechs="已发消息" namecht="已發消息"
+	    nameen="Sent Box">
+		<show>
+			true
+		</show>
+	</block>
+	
+	<block id="9993" type="classt" icon="icon_class_draft" name="draft" namechs="草稿箱" namecht="草稿箱"
+	    nameen="Draft Box">
+		<show>
+			true
+		</show>
+	</block>
+
+</blocks>

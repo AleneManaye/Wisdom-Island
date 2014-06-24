@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "InvalidSchoolKey">無效SchoolKey</string>
+ 	<string name="UnopenSchoolGatway">學校未開通網關</string>
+ 	
+ 	<string name = "AccountNotExist">帳號不存在</string>
+    <string name = "LoginInfoNotMatch">帳號或密碼錯誤</string>
+    <string name = "LoginParamEmpty">登录帳號、密碼、學校ID為空</string>
+    <string name = "InvalidSessionKey">無效SessionKey</string>
+    <string name = "InvalidSchoolId">無效的學校ID</string>
+    <string name = "SchoolIdisEmpty">學校ID為空</string>
+    
+    <string name = "NotTeacher">非教師身份</string>
+    <string name = "OrgNotExist">組織不存在</string>
+    
+    <string name = "EventStartDateEmpty">髮佈event起始時間為空</string>
+    <string name = "EventEndDateEmpty">髮佈event結束時間為空</string>
+    <string name = "ReceiverIDEmpty">髮佈event接收者ID列錶為空</string>
+    <string name = "ReceiverNameEmpty">髮佈event接收者名字列錶為空</string>
+    <string name = "EventLocationEmpty">髮佈event地點為空</string>
+    <string name="EventTypeEmpty">髮佈event類型為空</string>
+    <string name="EventTitleEmpty">髮佈event標題為空</string>
+    <string name = "EventContentEmpty">髮佈event內容為空</string>
+    <string name="EventUnknowError">未知異常</string>
+    <string name="EventInvalidEventID">無效event ID</string>
+    <string name="ReplyTitleEmpty">迴複的標題為空</string>
+    <string name="ReplyContentEmpty">迴複的內容為空</string>
+    
+    <string name="AttendanceErrorParam">參數不正確</string>
+    <string name="AccountIsRepeatBinding">賬號關聯重復綁定</string>
+</resources>

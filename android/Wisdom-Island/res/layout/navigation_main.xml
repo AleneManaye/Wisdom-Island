@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+	<LinearLayout	
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bg_main">
+	    
+	    <com.drcom.drpalm.View.controls.CornerListView
+	        android:id="@+id/bookmarklistview"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:layout_margin="20dp"
+			android:divider="@drawable/line1" 
+			android:dividerHeight="1dp"
+			android:background="@drawable/shape_bg_corners"
+			android:cacheColorHint="@null"
+			android:scrollbars="vertical"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="20dp"
+	        android:background="@drawable/shape_bg_corners">
+	    
+		    <include
+		        android:layout_width="fill_parent"
+		        android:layout_height="42dp"
+		        layout="@layout/listview_header"/>
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:background="@drawable/line1"
+		        android:id="@+id/divider"/>
+		    
+		    <com.drcom.drpalm.View.controls.CornerListView
+		        android:id="@+id/navigationlistview"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:divider="@drawable/line1" 
+				android:dividerHeight="1dp"
+				android:cacheColorHint="@null"
+				android:scrollbars="vertical"/>
+		</LinearLayout>
+		
+	      
+	</LinearLayout>
+</ScrollView>

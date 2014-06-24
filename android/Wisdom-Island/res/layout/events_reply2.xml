@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bglightgray" >
+    
+	<!-- 顶部 -->
+    <LinearLayout
+        android:id="@+id/reply_head_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray" >
+
+        <TextView
+            android:id="@+id/reply_head_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+    
+    <!-- 输入框 -->
+    <LinearLayout
+        android:id="@+id/reply_bottom_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/replybar_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/text_editor"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:focusable="true"
+            android:nextFocusRight="@+id/send_button"
+            android:textColorHint="#FFCCCCCC"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/reply_send_btn_selector"
+            android:gravity="center"
+            android:nextFocusLeft="@id/text_editor"
+            android:paddingLeft="11.0dip"
+            android:paddingRight="11.0dip" />
+    </LinearLayout>
+    
+    <!-- 内容列表 -->
+    <ListView
+        android:id="@+id/reply_history_lv"
+        android:layout_below="@id/reply_head_layout1"
+        android:layout_above="@id/reply_bottom_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bglightgray"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="@drawable/reply_listitem"
+        android:scrollbars="vertical"
+        android:transcriptMode="alwaysScroll" />  <!-- 列表总滚在下面 -->
+    
+</RelativeLayout>

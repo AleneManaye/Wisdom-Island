@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- Common -->
+    <string name="app_name">智慧岛中小學</string>
+    <string name="app_name_test">智慧岛中小學測試</string>
+    <string name="crashfilepath">/sdcard/DrpalmError/</string>
+    <string name="downloadpath">/WisdomIslandAlbum/下載</string>
+    <string name="classcachepath">/WisdomIslandAlbum/緩存/class</string>
+    <string name="schoolcachepath">/WisdomIslandAlbum/緩存/school</string>
+    <string name="tips">提示</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="update">更新</string>
+    <string name="download">下載</string>
+    <string name="download_resource">皮膚有更新哦，下載嗎？</string>
+    <string name="update_resource">皮膚有更新哦，下載嗎？</string>
+    <string name="downloading">下載資源包中。。。</string>
+    <string name="initializeing">初始化資源中。。。</string>
+    <string name="replaceing">替換資源中。。。</string>
+    <string name="settingfileerror">設定檔不存在或者格式不正確！</string>
+    <string name="profilekeyerror">ProfileKey錯誤</string>
+    <string name="profilekeyno_null">ProfileKey不能為空</string>
+    <string name="jni_error">網路不給力哦~</string>
+    <string name="pleasewait">請稍等...</string>
+    <string name="NotWiFi">您開啟了[僅WiFi使用]但當前不是Wifi網路連接</string>
+    <string name="add">新 增</string>
+    <string name="edit">編 輯</string>
+    <string name="del">刪 除</string>
+    <string name="nofunction">該機構未開通此功能</string>
+    <string name="detail">詳情</string>
+    <string name="note">備註</string>
+
+    <!-- 時間控制項標籤 -->
+    <string name="label_year">年</string>
+    <string name="label_month">月</string>
+    <string name="label_day">日</string>
+    <string name="label_hours">時</string>
+    <string name="label_mins">分</string>
+    
+    <!-- main -->
+    <string-array name="modulenames">
+        <item>學校</item>
+        <item>班級</item>label_year
+        <item>更多</item>
+    </string-array>
+    <string name="infant_diet">幼兒食譜</string>
+    <string name="parenting">育兒知識</string>
+    <string name="courseware">班級計劃</string>
+    <string name="face2face">家園橋</string>
+    <string name="video">班級影音</string>
+    <string name="draft">草稿箱</string>
+    <string name="sysinfo">系統資訊</string>
+    <string name="sent">已發消息</string>
+    <string name="hjt">互教通\n(考勤)</string>
+    <string name="ask4leave">告假申請</string>
+    <string name="exit_sure2">要退出E寶貝嗎？</string>
+    <string name="logout_sure">需要切換學校嗎？這樣會註銷哦</string>
+    <string name="enter">進入</string>
+    <string name="welcomesharecontent">我剛安裝了E寶貝Android用戶端，家長可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，共同關注幼兒成長，動動手指就能搞定，快來體驗吧！下載地址：</string>
+    <string name="welcomeback">歡迎回來:</string>
+    <!-- 告假申請 -->
+    <string name="leave_application">告假</string>
+    <string name="leave_type">請假類型：</string>
+    <string name="leave_type_sick">病假</string>
+    <string name="leave_saySomething">說點什麼吧…</string>
+    <string name="leave_set_time_error_msg">結束時間比開始時間要早或一樣,請重設</string>
+    <!-- sick leave -->
+    <string name="leave_type_casual">事假</string>
+    <string-array name="leave_types">
+        <item>病假</item>
+        <item>事假</item>
+    </string-array>
+    <!-- casual leave -->
+    <string name="leave_application_time">發佈時間：</string>
+    <string name="leave_applicant">申請人：</string>
+    <!-- applicant -->
+    <string name="leave_reason">請假理由：</string>
+    <!-- leave for -->
+    <string name="leave_receiver">接收人：</string>
+    <string name="select_all">全選</string>
+    <!-- leave for -->
+    <string name="leave_attachment">附件：</string>
+    <!-- attachment -->
+    <!-- 最新消息 -->
+    <string name="newestNews">最新校園新聞</string>
+    <string name="newestEvents">最新班級新聞</string>
+    <!-- DrpalmActivity -->
+    <string name="exit_sure">再按一次退出程式</string>
+    <string name="least_news">最新消息：</string>
+    <string name="least_events">事件：</string>
+    <string name="last_update">最後更新</string>
+    <string name="push_message">推送通告</string>
+    <string name="items">條</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_fail">更新失敗,</string>
+    <!-- NewsListSliderActivity -->
+    <string name="loadmorenews">更多…</string>
+    <string name="loading">載入中。。。</string>
+    <!-- NewsModule -->
+    <string name="schoolmail">校長信箱</string>
+    <string name="news">校園新聞</string>
+    <string name="activity">校園活動</string>
+    <string name="album">校園相冊</string>
+    <string name="news_search_label">News Search</string>
+    <string name="news_search_hint">Search articles</string>
+    <string name="no_news_bookmarks">You don\'t have any articles bookmarked. To bookmark an article, navigate to that article, press your device\'s Menu button, and tap the \'Add Bookmark\' menu item.</string>
+    <string name="searchnews">校園資訊搜索</string>
+    <string name="marknews">校園資訊收藏</string>
+    <!-- AttachmentAcitivity -->
+    <string name="add_attachment">觸碰添加快照</string>
+    <string name="attachment_description">快照備註</string>
+    <string name="is_del_attachment">是否刪除此快照?</string>
+    <string name="attachment_exists">附件已存在</string>
+    <!-- EventsModule -->
+    <string-array name="eventscategory">
+        <item>班級通知</item>
+        <item>班級評語</item>
+        <item>班級計劃</item>
+        <item>班級活動</item>
+        <item>班級相冊</item>
+    </string-array>
+    <string-array name="choosephoto">
+        <item>拍照</item>
+        <item>從相冊</item>
+    </string-array>
+    <string-array name="eventssendtype">
+        <item>轉發</item>
+        <item>替換</item>
+    </string-array>
+	<string name="type_null">(空)</string>
+    <string name="searchevents">班級資訊搜索</string>
+    <string name="markevents">班級資訊收藏</string>
+    <string name="events">通告</string>
+    <string name="sender">寄件者:</string>
+    <string name="addressee">收件人</string>
+    <string name="senttime">發送時間:</string>
+    <string name="location">地點:</string>
+    <string name="size">附件大小:</string>
+    <string name="start_time">開始:</string>
+    <string name="end_time">結束:</string>
+    <string name="valid_time">有效期至:</string>
+    <string name="all">全部</string>
+    <string name="sending">發送中。。。</string>
+    <string name="send_success">發送成功</string>
+    <string name="send_fail">發送失敗</string>
+    <string name="readcount">已讀</string>
+    <string name="totalcount">共發</string>
+    <string name="unit">人</string>
+    <string name="saveimagefile">保存</string>
+    <string name="saveimagefilesuccess">保存成功</string>
+    <string name="saveimagefilefailed">保存失敗</string>
+    <string name="getreplyinfoing">獲取回復內容...</string>
+    <string name="newest">最新</string>
+    <string name="unreadmsg">未讀</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="week">周</string>
+    <string name="classnews">班級通知</string>
+    <string name="urgent">班級通知</string>
+    <string name="studentnotice">E寶快照</string>
+    <string name="schoolnotice">班級評語</string>
+    <string name="homework">最新課件</string>
+    <string name="receiver">收件人</string>
+    <string name="shortloc">位置</string>
+    <string name="title">標題</string>
+    <string name="ifeshow">加急</string>
+    <string name="content">內容</string>
+    <string name="comment">班級評語</string>
+    <string name="classactivity">班級活動</string>
+    <string name="classalbum">班級相冊</string>
+    <string name="start">開始</string>
+    <string name="end">結束</string>
+    <string name="allday">全天</string>
+    <string name="attachment">附件</string>
+    <string name="attachments">添加快照</string>
+    <string name="retransmission">轉發</string>
+    <string name="replace">替換</string>
+    <string name="receiver_cant_be_null">收件人不能為空</string>
+    <string name="title_cant_be_null">請輸入標題</string>
+    <string name="pic_cant_be_null">請添加照片</string>
+    <string name="content_cant_be_null">內容不能為空</string>
+    <string name="comment_cant_be_null">評語不能為空</string>
+    <string name="date_cant_be_null">日期不能為空</string>
+    <string name="camera">拍攝</string>
+    <string name="localpic">本地圖片 </string>
+    <string name="pushsetsuccess">Push設置成功</string>
+    <string name="pushsetfailed">Push設置失敗</string>
+    <string name="network_error">網路有誤，拿不到附件資料</string>
+    <string name="network_error_noticetype">網路有誤，拿不到通告類型</string>
+    <string name="download_attachment">該通告包含未下載附件,是否下載後編輯？</string>
+    <string name="set_date_warning">開始時間至少早於結束時間1小時</string>
+    <string name="set_date_warning2">結束時間至少晚於開始時間1小時</string>
+    <string name="attachment_downloading">下載附件中。。。</string>
+    <string name="reply">回復人</string>
+    <string name="send">發送</string>
+    <string name="description">簡述</string>
+    <string name="replysucceed">回復成功</string>
+    <string name="replyfaild">回復失敗</string>
+    <string name="deleteitem">要刪除草稿嗎？</string>
+    <string name="orgself">發送給自己</string>
+    <string name="saveasdraft">要保存為草稿嗎?</string>
+    <string name="savesucceed">已保存到草稿箱</string>
+    <string name="eventscheckedsum">閱讀情況:</string>
+    <string name="read">已讀用戶:</string>
+    <string name="unread">未讀用戶:</string>
+    <string name="cantreply">班級資訊已失效,不能回復了</string>
+    <string name="editevent">發送資訊</string>
+    <string name="feedback">回復:</string>
+    <string name="post">發佈:</string>
+    <string name="msgvideousewifi">建議在WIFI環境下觀看</string>
+    <string name="summitsucced">提交成功</string>
+    <string name="summitfail">提交失敗</string>
+    <string name="choosecontacts">選擇收件人</string>
+    <string name="sysinfomaxmsg">只顯示最近<g id="part1">%1$s</g>條記錄</string>
+    <string name="eventsreview">回評</string>
+
+    <string name="select_attachment">選擇附件</string>
+
+    <!-- SettingModule -->
+    <string name="setting">配置</string>
+    <!-- ToursModule -->
+    <string name="tours">校園簡介</string>
+    <string name="tours_iscall">是否呼叫</string>
+    <string name="tours_call">呼叫</string>
+    <!-- 設置模組 -->
+    <string name="datausage">數據用量</string>
+    <string name="accountmanage">個人資訊</string>
+    <string name="systemsetting">系統設置</string>
+    <string name="help">使用幫助</string>
+    <string name="advice_feedback">意見回饋</string>
+    <string name="apps_recommend">軟體回饋</string>
+    <string name="share">分享</string>
+    <string name="tellfriend">告訴朋友</string>
+    <string name="hotline">客服熱線400–700–6560</string>
+    <string name="push">推送</string>
+    <string name="privacymanage">私隱設定</string>
+    <string name="onlyusewifi">僅WiFi使用</string>
+    <string name="wifiremind">注意【學校消息通知】需要網路連接(3G/WiFi)，可能會佔用您的資料流程量，建議在使用漫遊服務時，打開此功能。</string>
+    <string name="autorefresh">自動刷新</string>
+    <string name="autorefreshnews">新聞</string>
+    <string name="autorefreshevents">通告</string>
+    <string name="parentlock">離線鎖</string>
+    <string name="parentlockon">開啟離線鎖</string>
+    <string name="parentlockoff">關閉離線鎖</string>
+    <string name="modifyparentlockpwd">修改離線鎖密碼</string>
+    <string name="password">密碼</string>
+    <string name="newpassword">新密碼</string>
+    <string name="repeatpassword">確認密碼</string>
+    <string name="voiceprompt">聲音提示</string>
+    <string name="vibrationprompt">震動提示</string>
+    <string name="pushtime">推送時間段</string>
+    <string name="cleanofflinenews">清除校園消息</string>
+    <string name="iscleanofflinenews">是否清除校園消息?</string>
+    <string name="cleanofflineevents">清除班級消息</string>
+    <string name="iscleanofflineevents">是否清除班級消息?</string>
+    <string name="oldpassword_error">原始密碼錯誤</string>
+    <string name="password_error">密碼錯誤</string>
+    <string name="pwdorrepeatpwd_cant_be_null">密碼或確認密碼不能為空</string>
+    <string name="pwdandrepeatpwd_isnt_consistent">密碼和確認密碼不一致</string>
+    <string name="kindergartens">校園集合</string>
+    <!-- 關於模組 -->
+    <string name="about">關於E寶貝</string>
+    <string name="version">版本</string>
+    <string name="aboutchinacampus">關於大塘拔萃</string>
+    <string name="about_detailed">E寶貝是面向教育機構的家園溝通平臺，家長可隨時隨地通過E寶貝瞭解教育機構簡介、通知、課程資訊和互動交流等，加強與學校間的互動，共同關注寶貝成長。如果您有改進和更新功能的建議，我們非常樂意傾聽。</string>
+    <string name="copyright">運營服務商:廣州澳星軟體科技有限公司\n服務熱線:400-700-6560\n技術研發商:廣州熱點軟體有限公司</string>
+    <string name="remenber_profile_key">記住Profile key</string>
+    <string name="profile_key_prompt">請輸入Profile Key</string>
+    <string name="customhttp">申請定制:</string>
+    <string name="telephone_call">或撥打電話客戶熱線:</string>
+    <string name="company">城市熱點有限公司</string>
+    <string name="customize">定製版</string>
+    <string name="demonstrate">標準版</string>
+    <string name="httplink">http://www.doctorcom.com/drpalm</string>
+    <string name="phonelink">400–700–6560</string>
+    <string name="iddail">撥打電話 400–700–6560</string>
+    <string name="hotlinetitle">E寶貝客服竭誠為您服務</string>
+    <string name="sharesubject">幼教移動用戶端</string>
+    <string name="shareerrormessage">您的系統沒有安裝這個程式</string>
+    <string name="sharetitle">我剛安裝了E寶貝移動用戶端，讓您可隨時隨地通過移動終端瞭解學校簡介、校園通知、班級資訊、教師回饋、互動交流等資訊，加強家校互動，動動手指就能搞定，快來體驗吧！下載地址：</string>
+    <string name="shareurl">http://www.astar.so/WisdomIsland/</string>
+    <!-- 登錄 -->
+    <string name="onlinelogin">線上登錄</string>
+    <string name="offlinelogin">離線登錄</string>
+    <string name="logout">註銷</string>
+    <string name="logining">登錄中。。。</string>
+    <string name="logouting">註銷中。。。</string>
+    <string name="logoutsucceed">註銷成功</string>
+    <string name="loginaccount">帳號</string>
+    <string name="loginpwd">密碼</string>
+    <string name="rememberpwd">記住密碼</string>
+    <string name="autologin">自動登錄</string>
+    <string name="btnlogin">登錄</string>
+    <string name="login_fail">登錄失敗</string>
+    <string name="login_success">登錄成功</string>
+    <string name="offlinelogin_success">離線登錄成功</string>
+    <string name="ID_and_pwd_nonull">用戶名、密碼都要輸入哦</string>
+    <string name="getschoolkeying">獲取SchoolKey中...</string>
+    <string name="invalidSessionKey">您的帳號已經在其它地方登錄，需要檢查帳號安全哦</string>
+    <string name="autologinloading">自動登錄中...</string>
+    <string name="level">使用者等級</string>
+    <string name="levelupscore">升下一級所需的積分</string>
+    <string name="curscore">當前積分</string>
+    <string name="diary">成長點滴</string>
+    <string name="selfalbum">個人相冊</string>
+    <string name="suretodelete">確定刪除？</string>
+    <string name="findpw">找回密碼</string>
+    <!-- 自動更新 -->
+    <string name="upgrade_notify_text">E寶貝下載中...</string>
+    <string name="upgrade_notify_finish_text">E寶貝已經下載完成, 點擊安裝</string>
+    <string name="upgrade_notify_finishandsetup_text">E寶貝已經下載完成, 點擊通知欄安裝</string>
+    <string name="upgrade_title">版本發佈</string>
+    <string name="no_SDcard">請先插入SD卡</string>
+    <string name="download_faile">下載失敗</string>
+    <string name="download_finish">下載完成</string>
+    <string name="upgrade_now">馬上更新</string>
+    <string name="upgrade_never">以後不提示</string>
+    <string name="upgrade_later">下次再更新</string>
+    <!-- 相冊 -->
+    <string name="loading_images">載入圖片中，請稍後..</string>
+    <string name="album_photo_text">照片說明</string>
+    <string name="album_photo_positon">0/0</string>
+    <string name="album_photo_arrow">相冊箭頭</string>
+    <string name="album_photo_thuml">相冊封面</string>
+    <string name="album_photo_title">相冊標題</string>
+    <string name="album_photo_super">超級寶貝</string>
+    <string name="album_refresh">點擊刷新</string>
+    <string name="album_nopic">沒有圖片</string>
+    <string name="album_downfail">下載失敗</string>
+    <string name="album_downfinish">附件下載成功,已保存在:</string>
+    <string name="album_downfinish_openit">是否馬上查看?</string>
+    <string name="album_downloading">下載數據中,請稍等....</string>
+    <string name="myphotomaxmsg">只能為你保存最多<g id="part1">%1$s</g>張照片哦</string>
+    <!-- 諮詢 -->
+    <string name="consultation_commit">提交</string>
+    <string name="consultation_consignation">　　這裡是校長信箱，若您對我校管理有任何意見和建議，歡迎來信，我們將認真考慮您的建議。同時歡迎新生家長諮詢入學事宜，請留下您的聯繫方式，以便回復。</string>
+    <string name="consultation_contenthint">請輸入內容</string>
+    <string name="consultation_name">您的稱呼:</string>
+    <string name="consultation_phone">聯繫電話:</string>
+    <string name="consultation_email">電子郵箱:</string>
+    <string name="consultation_title">留言主題:</string>
+    <string name="consultation_content">留言內容</string>
+    <string name="consultation_email_wrong">請輸入正確的郵箱</string>
+    <string name="consultation_email_empty">請輸入郵箱</string>
+    <string name="consultation_name_empty">請輸入姓名</string>
+    <string name="consultation_tel_empty">請輸入電話</string>
+    <string name="consultation_tel_wrong">請輸入正確電話號碼</string>
+    <string name="consultation_content_empty">請輸入留言</string>
+    <string name="consultation_input_contact_infomation">請輸入聯繫方式</string>
+    <string name="consultation_send_success">您的資訊已經收到，是否退出</string>
+    <string name="calling">聯繫方式:</string>
+    <string name="feeding">請輸入意見:</string>
+    <string name="feeding_suggest">意見建議：</string>
+    <string name="consultation_name_input">請輸入您的稱呼名稱</string>
+    <string name="consultation_tel_input">請輸入聯繫電話</string>
+    <string name="consultation_mail_input">請輸入電子郵箱</string>
+    <string name="consultatio_title_input">請輸入留言標題</string>
+    <string name="consultatio_content_input">  說點什麼吧...</string>
+    <string name="feedback_email">電子郵箱</string>
+    <!-- 發送Push設置 -->
+    <string name="Sending">發送中…</string>
+    <string name="startPush">推送</string>
+    <string name="pushTimeSet">推送時段</string>
+    <string name="pushMethodSet">通知方式設置</string>
+    <string name="pushSound">聲音提示</string>
+    <string name="pushShake">震動提示</string>
+    <string name="pushtimewrong">起始時間要小於結束時間</string>
+    <string name="system_clearnews">清除校園消息</string>
+    <string name="system_clearcnews">清除班級消息</string>
+    <string name="system_isclearnews">確認清除校園資訊嗎？</string>
+    <string name="system_isclearcnews">確認清除班級消息嗎？</string>
+    <string name="system_clear">清除</string>
+    <string name="system_cancel">取消</string>
+    <string name="system_savewrong">保存失敗！</string>
+    <!-- WisdomIsland channel -->
+    <string name="WisdomIsland_channel">E寶貝頻道</string>
+    <!-- 客戶服務 -->
+    <string name="customer_service">客服</string>
+    <!-- 帳號關聯 -->
+    <string name="Please_ChooseSchool">請選擇學校</string>
+    <string name="bindaccount_ChooseSchool">選擇學校:</string>
+    <string name="bindaccount_btn">立即關聯</string>
+    <string name="btn_delete">刪除</string>
+    <!-- 刷新listview -->
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">鬆開可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">載入中。。。</string>
+    <string name="pull_to_refresh_tap_label">點擊刷新</string>
+    <string name="pull_to_refresh_latest_label">最後更新時間：</string>
+    <!-- 導航默認title -->
+    <string name="navigation_default_title">中小學聯盟</string>
+    <!-- 成長點滴 -->
+    <string name="diary_title">標題:</string>
+    <string name="diary_content">內容:</string>
+    <!-- 按鈕 -->
+    <string name="btn_navigation">導航</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_add">新增</string>
+    <string name="btn_menu">選項</string>
+    <!-- vlc -->
+    <string name="time_0">0:00</string>
+    <string name="unknown_artist">未知藝術家</string>
+    <string name="unknown_album">未知專輯</string>
+    <string name="unknown_genre">未知流派</string>
+    <string name="locked">已鎖定</string>
+    <string name="unlocked">已解鎖</string>
+    <string name="surface_best_fit">最合適</string>
+    <string name="surface_fit_horizontal">水準匹配</string>
+    <string name="surface_fit_vertical">垂直匹配</string>
+    <string name="surface_fill">填充</string>
+    <string name="surface_original">居中</string>
+    <string name="preferences">偏好設置</string>
+    <string name="main_prefs_category">常規</string>
+    <string name="privacy_prefs_category">隱私</string>
+    <string name="clear_history">清除搜索歷史</string>
+    <string name="advanced_prefs_category">高級</string>
+    <string name="enable_iomx">啟用硬體加速解碼</string>
+    <string name="advanced_debugging">高級調試</string>
+    <string name="quit">退出應用程式</string>
+    <string name="clear_media_db">清除媒體資料庫</string>
+    <string name="detect_headset">耳機偵測</string>
+    <string name="detect_headset_detail">耳機移除時暫停；插入時繼續播放</string>
+    <string name="enable_wheel_bar">啟用捲軸</string>
+    <string name="enable_verbose_mode">詳盡模式</string>
+    <string name="enable_verbose_mode_detail">增強詳盡程度 (logcat)</string>
+    <string name="aout">音訊輸出</string>
+    <string name="aout_audiotrack">AudioTrack 類 (原生)</string>
+    <string name="aout_audiotrack_java">AudioTrack 類 (Java)</string>
+    <string name="aout_opensles">OpenSL ES</string>
+    <string name="error_no_neon">抱歉，此版本的視頻播放機 尚不支援您的設備</string>
+    <string name="mediafiles">媒體文件</string>
+    <string name="filebrowser_root">Root</string>
+    <string name="directories">目錄</string>
+    <string name="filebrowser_title">選擇要播放的媒體檔</string>
+    <string name="validation">是否確定?</string>
+    <string name="media_db_cleared">Media database cleared!</string>
+    <string name="set_locale_popup">請退出並重置 VLC 使更改生效。</string>
+    <string name="encountered_error_title">重播錯誤</string>
+    <string name="encountered_error_message">VLC 播放該媒體時遇到問題。\n請嘗試刷新媒體庫。</string>
+    <string name="volume">音量</string>
+    <string name="brightness">亮度</string>
+    <string name="track_audio">音訊軌</string>
+    <string name="track_text">字幕軌</string>
+    <string name="unseekable_stream">非跳轉串流</string>
+    <string name="ringtone_set">“%1$s”已設為新鈴聲。</string>
+    <string name="ringtone_error">設置鈴聲時發生錯誤。</string>
+    <string name="invalid_location">指定位置 %1$s 無法播放</string>
+    <string name="widget_name" translatable="false">VLC mini player</string>
+    <string name="please_wait">請稍候…</string>
+    <string-array name="aouts_froyo">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+    </string-array>
+    <string-array name="aouts">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+        <item>@string/aout_opensles</item>
+    </string-array>
+    <string-array name="aouts_values_froyo" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="aouts_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- 分享 -->
+    <string name="shareSms">短信</string>
+    <string name="shareEmail">電子郵件</string>
+    <string name="shareSina">新浪微博</string>
+    <string name="shareWechat">微信朋友圈</string>
+    <!-- 考勤 -->
+    <string name="attendance_title">考勤紀錄</string>
+    <string name="attendance_all_status">考勤綜合情況:</string>
+    <string name="attendance_admission">正常入園:</string>
+    <string name="attendance_leave">正常離園:</string>
+    <string name="attendance_unusual">異常:</string>
+    <string name="attendance_normal">正常:</string>
+    <string name="attendance_absent">缺勤:</string>
+    <string name="attendance_day">天</string>
+    <string name="sunday">周日</string>
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="firday">週五</string>
+    <string name="saturday">週六</string>
+ <!-- (DEMO用) -->
+    <string-array name="yesno" translatable="false">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    
+    <string-array name="numberofpeople" translatable="false">
+        <item>1人</item>
+        <item>2人</item>
+    </string-array> 
+</resources>
+

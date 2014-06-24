@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/Layout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/school_msgtitle_1" >
+
+            <Button
+                android:id="@+id/buttonBookmark"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bookmark_btn_small_1_selector"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/buttonBookmark"
+                android:background="@drawable/search_btn_small_1_selector"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <!-- 园长信箱 -->
+
+        <RelativeLayout
+            android:id="@+id/Layout_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="18dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/btn_consult_selector" />
+
+                <TextView
+                    android:id="@+id/masterEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schoolmail"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/Layout_bottom"
+            android:layout_below="@+id/Layout_top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" >
+
+            <GridView
+                android:id="@+id/mainschool_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="60dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newslist_item_bg_selector" >
+
+    <ImageView
+        android:id="@+id/school_checkbox"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/checkboxnone" />
+
+    <TextView
+        android:id="@+id/school_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/school_checkbox"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/school_nextpage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/nextpage_1" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 资源相关文件路径 -->
+    <string name="title_icon">/global/title-image@2x.png</string>
+    <string name="null_pic">/global/no_pic.png</string>
+	<string name="toursindex">index.htm</string>
+	<string name="mainitems_icons_path">/mainitems/</string>
+	<string name="block_path">/mainitems/blocks.xml</string>
+</resources>

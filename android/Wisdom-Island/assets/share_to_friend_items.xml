@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+
+    <client
+        id="1001"
+        name="shareWechat"
+        icon="icon_share_wechat"
+        type="wechat" >
+
+        <show>
+			false
+        </show>
+    </client>
+    
+    <client
+        id="2001"
+        name="shareSina"
+        icon="icon_share_sina"
+        type="sina" >
+
+        <show>
+			true
+        </show>
+    </client>
+    
+    <client
+        id="3001"
+        name="shareSms"
+        icon="icon_share_sms"
+        type="sms" >
+
+        <show>
+			true
+        </show>
+    </client>
+    
+    <client
+        id="4001"
+        name="shareEmail"
+        icon="icon_share_email"
+        type="email" >
+
+        <show>
+			false
+        </show>
+    </client>
+
+</clients>

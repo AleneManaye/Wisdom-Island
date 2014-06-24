@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bglightgray" >
+
+    <!-- 左边相册 -->
+
+    <RelativeLayout
+        android:id="@+id/album_left"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ablum_pic_bg"
+                android:padding="10dp"
+                android:src="@drawable/no_pic" />
+
+            <LinearLayout
+                android:id="@+id/album_llt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/album_mark"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/bookmark_small"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/album_ifeshow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/important_small"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/album_reply"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/feedback_small"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <!-- 右边相册 -->
+
+    <RelativeLayout
+        android:id="@+id/album_asd_right"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:id="@+id/album_imgs_right"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/img_right"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ablum_pic_bg"
+                android:padding="10dp"
+                android:src="@drawable/no_pic" />
+
+            <LinearLayout
+                android:id="@+id/album_llt_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/album_mark_right"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/bookmark_small"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/album_ifeshow_right"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/important_small"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/album_reply_right"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/feedback_small"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

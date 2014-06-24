@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bglightgray" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/newevent_sendtype_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/newevent_category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp" />
+        
+        <Spinner
+            android:id="@+id/newevent_titletype_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/newevent_title_editText"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/title" />
+
+            <ImageView
+                android:id="@+id/newevent_impo_imgView"
+                android:layout_width="38dp"
+                android:layout_height="38dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/newevent_recevier_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg_selector"
+            android:gravity="center_vertical"
+            android:text="@string/addressee"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/newevent_location_editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:hint="@string/location"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/newevent_time_Layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg_selector"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/newevent_starttime_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/start_time"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/newevent_endtime_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/end_time"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/newevent_content_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_bg"
+            android:clickable="true"
+            android:fastScrollEnabled="true"
+            android:focusable="true"
+            android:gravity="top"
+            android:hint="@string/content"
+            android:minHeight="127dp"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+
+        <!--
+        <GridView
+            android:id="@+id/newevent_attc_gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3" >
+        </GridView>
+        -->
+
+        <LinearLayout
+            android:id="@+id/newevent_attc_LLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_bg_selector"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/newevent_attc_imgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/attachment_middle" />
+
+            <TextView
+                android:id="@+id/newevent_attc_txtview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/attachment"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

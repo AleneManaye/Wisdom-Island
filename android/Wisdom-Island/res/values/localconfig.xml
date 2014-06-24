@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DefaultResourceZip_160">defaultresource_160.zip</string> 
+    <string name="DefaultResourceZip_240">defaultresource_240.zip</string> 
+    <string name="DefaultResourceZip_320">defaultresource_320.zip</string> 
+    <string name="ResourceUpdateZip">resourceupdate.zip</string>
+    <string name="CostomizedResourceUpdateZip">costomizedresourceupdate.zip</string>
+    <string name="ResourceKeyZip">resourcekeyupdate.zip</string>       
+	<string name="ResourceDirectory">skin</string>
+	<string name="ResourceZipDirectory">skinzip</string>
+	<string name="ResourceTempDirectory">tempdownload</string>	
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="JsonParserError">数据格式错误</string>
+    <string name="InvalidSchoolKey">无效SchoolKey</string>
+    <string name="UnopenSchoolGatway">学校未开通网关</string>
+    <string name="AccountNotExist">帐号不存在</string>
+    <string name="LoginInfoNotMatch">帐号或密码错误</string>
+    <string name="LoginParamEmpty">登录帐号、密码、学校ID为空</string>
+    <string name="InvalidSessionKey">登录超时,请重新登录</string>
+    <string name="InvalidSchoolId">无效的学校ID</string>
+    <string name="SchoolIdisEmpty">学校ID为空</string>
+    <string name="OvertimeSessionKey">SessionKey超时</string>
+    <string name="MailFormatError">邮箱格式错误</string>
+    <string name="OrgIdNotNull">组织机构ID不可为空</string>
+    <string name="OrgResourceNotNew">没有新组织机构资源下载</string>
+    <string name="CategoryIdNotNull">新闻分类ID不能为空</string>
+    <string name="ConsultTelOrMailNotNull">咨询回复电话或邮件地址不能为空</string>
+    <string name="ConsultContentNotNull">咨询内容不可为空</string>
+    <string name="ConsultNameNotNull">咨询姓名不可为空</string>
+    <string name="LoginInfoNoMoney">此账号已过期,请登录E宝贝Windows客户端充值</string>
+    <string name="NotTeacher">非教师身份</string>
+    <string name="OrgNotExist">组织不存在</string>
+    <string name="EventStartDateEmpty">发布event起始时间为空</string>
+    <string name="EventEndDateEmpty">发布event结束时间为空</string>
+    <string name="ReceiverIDEmpty">发布event接收者ID列表为空</string>
+    <string name="ReceiverNameEmpty">发布event接收者名字列表为空</string>
+    <string name="EventLocationEmpty">发布event地点为空</string>
+    <string name="EventTypeEmpty">发布event类型为空</string>
+    <string name="EventTitleEmpty">发布event标题为空</string>
+    <string name="EventContentEmpty">发布event内容为空</string>
+    <string name="EventUnknowError">未知异常</string>
+    <string name="EventInvalidEventID">无效event ID</string>
+    <string name="ReplyTitleEmpty">回复的标题为空</string>
+    <string name="ReplyContentEmpty">回复的内容为空</string>
+    <string name="NoLinkForPassword">未配置找回密码链接</string>
+    <string name="UnknownClientType">未知客户端类型</string>
+    <string name="NoNewResourceDownLoad">没有新资源可下载</string>
+    <string name="NoResourceDownLoad">资源包为空</string>
+    <string name="AttendanceErrorParam">参数不正确</string>
+    <string name="AttendanceOvertime">设备时间不准确</string>
+    <string name="AttendanceErrorCheck">校验不正确</string>
+    <string name="AccountIsRepeatBinding">账号关联重复绑定</string>
+    
+    <string name="ElseError">服务器错误</string>
+
+</resources>

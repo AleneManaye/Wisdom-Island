@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/news_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/pull_to_refresh_pull_label" 
+        android:visibility="gone"
+        />
+
+    <com.drcom.drpalm.View.controls.RefreshListView
+        android:id="@+id/news_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/news_refresh"
+        android:cacheColorHint="#00000000"
+        android:divider="#E2E4E3"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:scrollingCache="true"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/news_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+    </ProgressBar>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="googleMapsApiKey">0dnmfsapaOTUestsNVIrVfemC8RD8cgKOdX2mpQ</string>
+               <integer name="versionNumber">7</integer>
+               <string name="versionName">2.1</string>
+</resources>

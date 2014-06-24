@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name = "push_center">http://push.doctorcom.com:88/</string>
+  <!--<string name = "push_center">http://192.168.12.115:81/</string> -->
+</resources>

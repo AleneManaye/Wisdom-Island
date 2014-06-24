@@ -1,0 +1,40 @@
+﻿/* CSS Document */
+@charset "utf-8";
+body{
+	padding:0;
+	width:auto !important;
+	/* [disabled]width:800px;*/
+	/* [disabled]min-width:800px; */
+	margin:0;
+	background-color:#baefff;
+}
+.logo{
+	height:103px;
+	background:url(../img/logo.png) center no-repeat;
+}
+.main{
+	/* [disabled]width:800px; */
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text{
+	/* [disabled]width:730px; */
+	margin:0 auto 0 auto;
+	font-family: "宋体";
+	font-size: 25px;
+	line-height:35px;
+	word-break:break-all;
+	color:#505155;
+}
+.t{
+	height:80px;
+	text-align:center;
+}
+/*
+.photo {
+	height:258px;
+}
+*/

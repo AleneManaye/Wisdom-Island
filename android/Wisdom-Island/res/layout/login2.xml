@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageview_login_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logintop_bg1" />
+        <!-- 主要布局 -->
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/boder"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.11"
+                    android:background="@drawable/transparent"
+                    android:drawableLeft="@drawable/login_head_icon"
+                    android:gravity="center_vertical"
+                    android:hint="@string/loginaccount"
+                    android:maxLength="20"
+                    android:textColor="#000000"
+                    android:singleLine="true"
+                     />
+
+                <Button
+                    android:id="@+id/moreUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/login_username_down" />
+            </LinearLayout>
+
+			<Gallery
+				android:id="@+id/myGallery"
+				android:layout_width="fill_parent"
+				android:layout_height="90dp"
+				android:background="@drawable/bg_login_user" />
+
+            <EditText
+                android:id="@+id/userpwd"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/boder"
+                android:drawableLeft="@drawable/login_pw_icon"
+                android:gravity="center_vertical"
+                android:hint="@string/loginpwd"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_btn_log_selector"
+                android:text="@string/btnlogin"
+                style="@style/BtnText" />
+
+            <Button
+                android:id="@+id/btnofflinelogin"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/login_btn_findpw_selector"
+                android:text="@string/findpw"
+                style="@style/BtnText" />
+            <!-- 保存账号按钮 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/login_checkbox_rememberpwd"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="@string/rememberpwd"
+                    android:textColor="@color/help_view"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/login_checkbox_autologin"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/autologin"
+                    android:textColor="@color/help_view"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+                
+                <CheckBox
+                    android:id="@+id/login_checkbox_bindaccount"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="@string/bindaccount"
+                    android:textColor="@color/help_view"
+                    android:textSize="15sp"
+                    android:checked="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

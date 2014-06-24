@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_title"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" 
+    android:background="@drawable/connerlist_header_selector">
+    
+    <WebView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ebaby_channel_webveiw"/>
+    
+	<!--  
+	    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/header_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/ebaby_channel"
+            android:textColor="#000000"
+            android:textSize="@dimen/TextDefaultSize" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/nextpage"
+            android:visibility="gone" />
+    </RelativeLayout>
+	-->
+
+</LinearLayout>

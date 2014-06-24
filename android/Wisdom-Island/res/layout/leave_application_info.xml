@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!--
+          <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/leave_application_info"/>
+    -->
+
+    <ScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:layout_margin="10dp" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bg_corners"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/leave_type"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/leave_applicant"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/applicant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/leave_application_time"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/application_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+            
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/start_time"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/application_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/end_time"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/application_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leave_reason"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/application_reason"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/leave_receiver"
+                    android:textColor="#0c81b0" />
+
+                <TextView
+                    android:id="@+id/receiver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#0c81b0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:id="@+id/attachment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_item_selector"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/leave_attachment"
+                        android:textColor="#0c81b0" />
+
+                    <TextView
+                        android:id="@+id/attachmentNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textColor="#0c81b0" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

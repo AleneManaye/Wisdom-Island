@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/events_row_hk_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/eventslist_item_bg_selector"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/IV_layout"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:background="@drawable/news_item_imagebg" >
+
+        <ImageView
+            android:id="@+id/newsRowIV"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/no_pic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_toRightOf="@+id/IV_layout"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/eventsTitle_Txtview"
+            style="@style/ListItemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="1dip"
+            android:text="title" />
+
+        <TextView
+            android:id="@+id/eventsSummary_Txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="2dp"
+            android:paddingBottom="2dip"
+            android:textColor="@color/dark_gray"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/event_icon_Llayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" >
+
+            <ImageView
+                android:id="@+id/event_rowbookmark"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/bookmark_small" />
+
+            <ImageView
+                android:id="@+id/event_rowattachment"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/attachment_small" />
+
+            <ImageView
+                android:id="@+id/event_isPrize"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/important_small" />
+
+            <ImageView
+                android:id="@+id/event_feedback"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/feedback_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eventsDate_Txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="3dip"
+        android:textColor="@color/orange"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/events_draft_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/draft_delete_selector" />
+
+</RelativeLayout>

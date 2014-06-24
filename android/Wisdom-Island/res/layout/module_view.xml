@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gif="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Layout_BG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bglightblue"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <LinearLayout
+        android:id="@+id/Layout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/bgblue" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/titlebar"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/title_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="3dp" />
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/Layoutright_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp" >
+
+                <LinearLayout
+                    android:id="@+id/Layoutright_title_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+
+                <!--
+                <ProgressBar
+                    android:id="@+id/title_progressBar"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:visibility="gone" />
+                -->
+
+                <com.drcom.ui.View.controls.Gif.TypegifView
+                    android:id="@+id/title_gifViewloading"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/title_button_left"
+                style="@style/TitleBtnText"
+                android:layout_width="50dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp"
+                android:background="@drawable/btn_title_right_blue_selector"
+                android:text="@string/btn_back" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- body -->
+
+    <LinearLayout
+        android:id="@+id/Layout_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/Layout_title"
+        android:background="@color/bglightgray"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- 底部按钮布局 -->
+
+    <LinearLayout
+        android:id="@+id/Layout_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/toolbar_bg"
+            android:gravity="bottom" >
+
+            <LinearLayout
+                android:id="@+id/Layout_toolbar_Left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Layout_toolbar_Right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 欢迎 -->
+
+    <LinearLayout
+        android:id="@+id/Layout_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_welcomeback"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtview_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="welcome back"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</RelativeLayout>

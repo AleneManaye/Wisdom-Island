@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Username">帳  號：</string>
+    <string name="Password">密  碼：</string>
+    <string name="username">帳  號</string>
+	<string name="login">登   錄</string>
+	<string name="OK">確  定</string>
+	<string name="Cancel">取  消</string>
+	<string name="Tips">提示</string>
+	<string name="Min">分鐘</string>
+	<string name="MByte">兆</string>
+	<string name="Used_time">"使用時長："</string>
+	<string name="Used_flux">"使用流量："</string>
+	<string name="Remember_my_password">"保存密碼"</string>
+	<string name="Sign_in_Automatically">"自動登錄"</string>
+	<string name="Do_you_want_to_exist">"是否退出程式？"</string>
+	<string name="Please_enter_your_username">"請輸入帳號"</string>
+	<string name="Please_enter_your_password">"請輸入密碼"</string>
+	<string name="This_equipment_already_online_do_not_need_to_log_in">"該設備已經線上，無需登錄"</string>
+	<string name="Can_not_find_Dr_COM_web_protocol">"未能定位 Dr.COM 協議"</string>
+	<string name="The_IP_does_not_allow_login_base_Dr_COM_web_technology">"本IP不允許使用本用戶端登錄"</string>
+	<string name="The_account_does_not_allow_login_base_Dr_COM_web_technology">"本帳號不允許使用本用戶端登錄"</string>
+	<string name="The_account_does_not_allow_change_password">"本帳戶不允許修改密碼"</string>
+	<string name="Invalid_account_or_password_please_login_again">"帳戶或密碼不對，請重新輸入"</string>
+	<string name="This_account_is_tie_up_please_contact_network_administration_IP_MAC" formatted="false">"該帳號正在使用中，請您與網管聯繫 IP(%s) MAC(%s)"</string>
+	<string name="This_account_use_on_appointed_address_only_IP">"本帳號只能使用指定的位址 IP(%s)"</string>
+	<string name="This_account_charge_be_overspend_or_flux_over">"本帳號費用超支或時長流量超過限制"</string>
+	<string name="This_account_be_break_off">"本帳號暫停使用"</string>
+	<string name="System_buffer_full">"伺服器繁忙"</string>
+	<string name="This_account_is_tie_up_can_not_amend">"本帳號已在使用，不能修改"</string>
+	<string name="The_new_and_the_confirm_password_are_differ_can_not_amend">"新密碼與確認密碼不匹配，不能修改"</string>
+	<string name="The_password_amend_successed">"密碼修改成功"</string>
+	<string name="This_account_use_on_appointed_address_only_MAC">"本帳號只能在指定位址使用 MAC(%s)"</string>
+	<string name="This_account_does_not_allow_use_NAT">"本帳號不允許使用NAT"</string>
+	<string name="Network_connection_interruption_check_the_network_configuration_please">"網路鏈結中斷，請檢查網路配置"</string>
+</resources>

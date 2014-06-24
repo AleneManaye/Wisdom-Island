@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/newslist_item_bg_selector"
+    android:gravity="center_vertical"
+    android:padding="6dp" >
+
+    <!-- 未读标志 -->
+    <LinearLayout android:id="@+id/Mark_layout"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal" >
+        <ImageView android:id="@+id/Imgview_unreadmark"
+            android:layout_width="20dp"
+        	android:layout_height="20dp"
+        	android:layout_marginTop="5dp"
+        	android:src="@drawable/unread_mark"/>
+    </LinearLayout>
+    
+    <!-- 封面图片 -->
+    <ImageView
+        android:id="@+id/news_cover"
+        android:layout_toRightOf="@id/Mark_layout"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/news_item_imagebg"
+        android:contentDescription="@string/app_name"
+        android:padding="3dp" />
+    
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ListItemTitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="22dp"
+        android:layout_toRightOf="@id/news_cover"
+        android:ellipsize="end"
+        android:singleLine="true" />
+    
+    <!-- 内容描述 -->
+    <TextView
+        android:id="@+id/news_summary"
+        style="@style/ListItemSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_title"
+        android:text="@string/news"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="22dp"
+        android:layout_toRightOf="@id/news_cover"
+        android:singleLine="true" />
+    
+    <!-- 收藏 -->
+    <ImageView
+        android:id="@+id/news_isMark"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/news_summary"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/news_cover"
+        android:background="@drawable/bookmark_small"
+        android:contentDescription="@string/app_name" />
+    
+    <!-- 日期 -->
+    <TextView
+        android:id="@+id/news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="22dp"
+        android:text="2012-12-12"
+        android:textColor="@color/orange"
+        android:textSize="14dp" />
+    
+    <!-- 箭头 -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/arrow_next" />
+
+</RelativeLayout>

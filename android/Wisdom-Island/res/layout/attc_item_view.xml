@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!--
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/main_item_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/white_kk" />
+
+
+       	<TextView
+       	    android:id="@+id/main_item_msgnum_txtView"
+       	    android:layout_width="16dp"
+       	    android:layout_height="16dp"
+       	    android:layout_gravity="right"
+       	    android:layout_marginRight="22dp"
+       	    android:gravity="center"
+       	    android:textSize="10dp"
+       	    android:textColor="@color/white"
+       	    android:background="@drawable/nubmer_bg" />
+
+       	<ImageView
+            android:id="@+id/main_item_del_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="right"
+       	    android:layout_marginRight="22dp"
+            android:background="@drawable/del_small" />
+
+    </FrameLayout>
+    -->
+
+    <RelativeLayout
+        android:layout_width="208dp"
+        android:layout_height="208dp" >
+
+        <ImageView
+            android:id="@+id/main_item_imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/main_item_del_imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/del_small_selector"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

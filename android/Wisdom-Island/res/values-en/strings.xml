@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="app_name">CDOHK</string>
+    <string name="app_name_test">CDOHKTest</string>
+    <string name="crashfilepath">/sdcard/DrpalmError/</string>
+    <string name="downloadpath">/WisdomIslandAlbum/download</string>
+    <string name="classcachepath">/WisdomIslandAlbum/cache/class</string>
+    <string name="schoolcachepath">/WisdomIslandAlbum/cache/school</string>
+    <string name="tips">Prompt</string>
+    <string name="ok">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update">Update</string>
+    <string name="download">Load</string>
+    <string name="download_resource">Skin has been updated, download it?</string>
+    <string name="update_resource">Skin has been updated, download it?</string>
+    <string name="downloading">Downloading to Resource Packs...</string>
+    <string name="initializeing">Initializing Resources...</string>
+    <string name="replaceing">Replacing Resources...</string>
+    <string name="settingfileerror">The configuration file does not exist or the format is incorrect！</string>
+    <string name="profilekeyerror">ProfileKey Error</string>
+    <string name="profilekeyno_null">ProfileKey cannot Be Blank</string>
+    <string name="jni_error">Low Network Speeds~</string>
+    <string name="pleasewait">Please Wait...</string>
+    <string name="NotWiFi">You have enabled the network connection (for WiFi only) which is currently not WiFi</string>
+    <string name="add">Added</string>
+    <string name="edit">Edit</string>
+    <string name="del">Delete</string>
+    <string name="nofunction">The function is not available through this organization.</string>
+    <string name="detail">Details</string>
+    <string name="note">Remarks</string>
+
+    <!-- date view -->
+    <string name="label_year">Year</string>
+    <string name="label_month">Month</string>
+    <string name="label_day">Day</string>
+    <string name="label_hours">Hour</string>
+    <string name="label_mins">Min</string>
+
+    <!-- main -->
+    <string-array name="modulenames">
+        <item>School</item>
+        <item>Class</item>
+        <item>More</item>
+    </string-array>
+
+    <string name="infant_diet">Menus</string>
+    <string name="parenting">Health</string>
+    <string name="courseware">Plan</string>
+    <string name="face2face">Home Bridge</string>
+    <string name="video">Class Video</string>
+    <string name="draft">Draft Box</string>
+    <string name="sysinfo">System</string>
+    <string name="sent">Sent Box</string>
+    <string name="hjt">HJT Mobile</string>
+    <string name="ask4leave">Absence</string>
+    <string name="exit_sure2">Do you want to exit WisdomIsland?</string>
+    <string name="logout_sure">Do you want to switch the school? It will log out.</string>
+    <string name="enter">Enter</string>
+    <string name="welcomesharecontent">I have just installed the Android Client for WisdomIsland, through which parents can find out the information such as School Information, Campus Notice, Class Information, Teachers\' Feedback, Interactive Communication anywhere anytime to strengthen the interaction between parents and schools and pay attention to the growth of kids. It\'s easy to do this. Come on! Download:</string>
+	<string name="welcomeback">Welcome Back:</string>
+	
+	<!-- 告假申请 -->
+    <string name="leave_application">Leave</string>
+    <string name="leave_type">Type of leave：</string>
+    <string name="leave_type_sick">Sick leave</string>
+    <string name="leave_saySomething">Say something…</string>
+    <string name="leave_set_time_error_msg">Wrong time setting,please reset it!</string>
+    <!-- sick leave -->
+    <string name="leave_type_casual">Casual leave</string>
+    <string-array name="leave_types">
+        <item>Sick leave</item>
+        <item>Casual leave</item>
+    </string-array>
+    <!-- casual leave -->
+    <string name="leave_application_time">Release time：</string>
+    <string name="leave_applicant">Applicant：</string>
+    <!-- applicant -->
+    <string name="leave_reason">Reason for leave：</string>
+    <!-- leave for -->
+    <string name="leave_receiver">Receiver：</string>
+    <string name="select_all">Select all</string>
+    <!-- leave for -->
+    <string name="leave_attachment">Attachment：</string>
+    <!-- attachment -->
+	
+	<!-- 最新消息 -->
+	<string name="newestNews">Latest Campus News</string>
+	<string name="newestEvents">Latest Class News</string>
+	
+    <!-- DrpalmActivity -->
+    <string name="exit_sure">Press Again to Exit</string>
+    <string name="least_news">New Message：</string>
+    <string name="least_events">Event：</string>
+    <string name="last_update">Last Update</string>
+    <string name="push_message">Push Notification</string>
+    <string name="items">Item</string>
+    <string name="update_success">Updated Successfully</string>
+    <string name="update_fail">Failed to Update,</string>
+    
+    <!-- NewsListSliderActivity -->
+    <string name="loadmorenews">More…</string>
+    <string name="loading">Loading ...</string>
+
+    <!-- NewsModule -->
+    <string name="schoolmail">Feedback</string>
+    <string name="news">News</string>
+    <string name="activity">Events</string>
+    <string name="album">Gallery</string>
+    <string name="news_search_label">News Search</string>
+    <string name="news_search_hint">Search articles</string>
+    <string name="no_news_bookmarks">You don\'t have any articles bookmarked. To bookmark an article, navigate to that article, press your device\'s Menu button, and tap the \'Add Bookmark\' menu item.</string>
+	<string name="searchnews">Search Campus Information</string>
+	<string name="marknews">Campus Information Favorites</string>
+    
+    <!-- AttachmentAcitivity -->
+    <string name="add_attachment">Touch to Add Snaps</string>
+    <string name="attachment_description">Snap Remarks</string>
+    <string name="is_del_attachment">Delete the snap or not?</string>
+    <string name="attachment_exists">Attachment has existed.</string>
+
+    <!-- EventsModule -->
+    <string-array name="eventscategory">
+        <item>Inbox</item>
+        <item>Comments</item>
+        <item>Plan</item>
+        <item>Activities</item>
+        <item>Class Album</item>
+    </string-array>
+    <string-array name="choosephoto">
+        <item>Photograph</item>
+        <item>From Album</item>
+    </string-array>
+    <string-array name="eventssendtype">
+        <item>Forward</item>
+        <item>Replace</item>
+    </string-array>
+    
+	<string name="type_null">null</string>
+
+    <string name="searchevents">Class Information Search</string>
+    <string name="markevents">Class Information Favorites</string>
+    <string name="events">Notification</string>
+    <string name="sender">Sender:</string>
+    <string name="addressee">Recipient</string>
+    <string name="senttime">Sent Time:</string>
+    <string name="location">Location:</string>
+    <string name="size">Attachment Size:</string>
+    <string name="start_time">Start:</string>
+    <string name="end_time">End:</string>
+    <string name="valid_time">Valid Until:</string>
+    <string name="all">All</string>
+    <string name="sending">Sending...</string>
+    <string name="send_success">Sent Successfully</string>
+    <string name="send_fail">Failed to Send</string>
+    <string name="readcount">Read</string>
+    <string name="totalcount">Sent</string>
+    <string name="unit">Persons</string>
+    <string name="saveimagefile">Save</string>
+    <string name="saveimagefilesuccess">Save Successfully</string>
+    <string name="saveimagefilefailed">Failed to Save</string>
+    <string name="getreplyinfoing">Get Reply Content...</string>
+    <string name="newest">Latest</string>
+    <string name="unreadmsg">Unread</string>
+    <string name="month">M</string>
+    <string name="day">Daily</string>
+    <string name="week">Weekly</string>
+    <string name="classnews">Inbox</string>
+    <string name="urgent">Notice</string>
+    <string name="studentnotice">WisdomIsland Snaps</string>
+    <string name="schoolnotice">Comments</string>
+    <string name="homework">Latest Courseware</string>
+    <string name="receiver">Recipient</string>
+    <string name="shortloc">Position</string>
+    <string name="title">Title</string>
+    <string name="ifeshow">Urgent</string>
+    <string name="content">Content</string>
+    <string name="comment">Comments</string>
+    <string name="classactivity">Activities</string>
+    <string name="classalbum">Class Album</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="allday">All Day</string>
+    <string name="attachment">Attachment</string>
+    <string name="attachments">Add Snaps</string>
+    <string name="retransmission">Forward</string>
+    <string name="replace">Replace</string>
+    <string name="receiver_cant_be_null">Recipient cannot be blank.</string>
+    <string name="title_cant_be_null">Please enter the title</string>
+    <string name="pic_cant_be_null">Please Add Photos</string>
+    <string name="content_cant_be_null">Content cannot be blank</string>
+    <string name="comment_cant_be_null">Comments cannot be blank</string>
+    <string name="camera">Shoot</string>
+    <string name="localpic">Local Pictures</string>
+    <string name="pushsetsuccess">Push set successfully</string>
+    <string name="pushsetfailed">Failed to Set push</string>
+    <string name="network_error">Network Error. Attachment data cannot be got.</string>
+    <string name="network_error_noticetype">Network Error. The notification type cannot be got.</string>
+    <string name="download_attachment">This notification contains attachments not downloaded. Edit after downloading?</string>
+    <string name="set_date_warning">The start time shall be at least 1 hour earlier than the end time.</string>
+    <string name="set_date_warning2">The end time shall be at least 1 hour later than the start time.</string>
+    <string name="attachment_downloading">Downloading Attachments ...</string>
+    <string name="reply">Replier</string>
+    <string name="send">Send</string>
+    <string name="description">Brief</string>
+    <string name="replysucceed">Replied Successfully</string>
+    <string name="replyfaild">Failed to Reply</string>
+    <string name="deleteitem">Do you want to delete the draft?</string>
+    <string name="orgself">To inbox</string>
+    <string name="saveasdraft">Do you want to save it as draft?</string>
+    <string name="savesucceed">Saved in draft box</string>
+    <string name="eventscheckedsum">Reading Status:</string>
+    <string name="read">Read Users:</string>
+    <string name="unread">Unread Users:</string>
+    <string name="cantreply">The class information has been invalid. No reply can be made.</string>
+    <string name="editevent">Send Information</string>
+    <string name="feedback">Reply:</string>
+    <string name="post">Post:</string>
+	<string name="msgvideousewifi">It is recommended to view in a WiFi environment.</string>
+	<string name="summitsucced">Submitted Successfully</string>
+	<string name="summitfail">Fail to Submit</string>
+	<string name="choosecontacts">Select Recipient</string>
+	<string name="sysinfomaxmsg">Show the least <g id="part1">%1$s</g>records</string>
+	<string name="eventsreview">Review</string>
+    <string name="select_attachment">Select Attachment</string>
+
+    <!-- SettingModule -->
+    <string name="setting">Configuration</string>
+
+    <!-- ToursModule -->
+    <string name="tours">Profile</string>
+    <string name="tours_iscall">Call or not?</string>
+    <string name="tours_call">Call</string>
+
+    <!-- 设置模块 -->
+    <string name="datausage">Data Usage</string>
+    <string name="accountmanage">Personal Information</string>
+    <string name="systemsetting">System Settings</string>
+    <string name="help">User Help</string>
+    <string name="advice_feedback">Opinion Feedback</string>
+    <string name="apps_recommend">Software Feedback</string>
+    <string name="share">Share</string>
+    <string name="tellfriend">Tell Friends</string>
+    <string name="hotline">Customer Service Hotline:400–700–6560</string>
+    <string name="push">Push</string>
+    <string name="privacymanage">Privacy Setting</string>
+    <string name="onlyusewifi">For WiFi Only</string>
+    <string name="wifiremind">Note (School Messages Notice) The 3G/WiFi network connection is required, and may occupy your data. It is recommended to enable this function when using the roaming service.</string>
+    <string name="autorefresh">Automatically Refresh</string>
+    <string name="autorefreshnews">News</string>
+    <string name="autorefreshevents">Notification</string>
+    <string name="parentlock">Offline Lock</string>
+    <string name="parentlockon">Open Offline Lock</string>
+    <string name="parentlockoff">Close Offline Lock</string>
+    <string name="modifyparentlockpwd">Change Offline Lock Password</string>
+    <string name="password">Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="repeatpassword">Confirm Password</string>
+    <string name="voiceprompt">Voice Prompt</string>
+    <string name="vibrationprompt">Vibration Prompt</string>
+    <string name="pushtime">Push Time Period</string>
+    <string name="cleanofflinenews">Delete Campus Messages</string>
+    <string name="iscleanofflinenews">Clear Campus Messages or not?</string>
+    <string name="cleanofflineevents">Clear Class Messages</string>
+    <string name="iscleanofflineevents">Clear Class Messages or not?</string>
+    <string name="oldpassword_error">Original Password Error</string>
+    <string name="password_error">Password Error</string>
+    <string name="pwdorrepeatpwd_cant_be_null">Password or Confirm password cannot be blank.</string>
+    <string name="pwdandrepeatpwd_isnt_consistent">The password and Confirm password do not match</string>
+    <string name="kindergartens">Schools</string>
+
+    <!-- 关于模块 -->
+    <string name="about">About WisdomIsland</string>
+    <string name="version">Version</string>
+    <string name="aboutchinacampus">About Datang Bacui</string>
+    <string name="about_detailed">WisdomIsland is a home communication platform oriented to educational institutions, through which parents can find out the information such as Educational Institutions, Notice, Course Information and Interactive Communication anywhere anytime to strengthen the interaction with schools and pay attention to the growth of kids. If you have suggestions on improving and updating the functions, we are very happy to listen.</string>
+    <string name="copyright">Operator service providers:Astar Software Technology Co., Ltd.\nService hotline:400-700-6560\nTechnology developer: City Hotspot Software Co., Ltd. </string>
+    <string name="remenber_profile_key">Remember profile key</string>
+    <string name="profile_key_prompt">Please enter profile Key</string>
+    <string name="customhttp">Application for Customization:</string>
+    <string name="telephone_call">Or dial our customer service hotline:</string>
+    <string name="company">City Hotpoint Co., Ltd.</string>
+    <string name="customize">Customized Version</string>
+    <string name="demonstrate">Standard Version</string>
+    <string name="httplink">http://www.doctorcom.com/drpalm</string>
+    <string name="phonelink">400–700–6560</string>
+    <string name="iddail">Dial 400–700–6560</string>
+    <string name="hotlinetitle">WisdomIsland Customer Service serves you wholeheartedly.</string>
+    <string name="sharesubject">Preschool Education Mobile Client</string>
+    <string name="shareerrormessage">UnInstall!</string>
+    <string name="sharetitle">I have just installed the Mobile Client for WisdomIsland, through which parents can find out the information such as School Information, Campus Notice, Class Information, Teachers\' Feedback, Interactive Communication anywhere anytime to strengthen the interaction between parents and schools. It\'s easy to do this. Come on! Download：</string>
+    <string name="shareurl">http://www.astar.so/WisdomIsland/</string>
+
+    <!-- 登录 -->
+    <string name="onlinelogin">Online Login</string>
+    <string name="offlinelogin">Offline Login</string>
+    <string name="logout">Logout</string>
+    <string name="logining">Logging in...</string>
+    <string name="logouting">Logging Out...</string>
+    <string name="logoutsucceed">Logged Out Successfully</string>
+    <string name="loginaccount">Account ID</string>
+    <string name="loginpwd">Password</string>
+    <string name="rememberpwd">Remember Password</string>
+    <string name="autologin">Automatic Login</string>
+    <string name="btnlogin">Login</string>
+    <string name="login_fail">Failed to Log in</string>
+    <string name="login_success">Logged in Successfully</string>
+    <string name="offlinelogin_success">Logged in Offline Successfully</string>
+    <string name="ID_and_pwd_nonull">Enter user name and password.</string>
+    <string name="getschoolkeying">Getting SchoolKey…</string>
+    <string name="invalidSessionKey">Your account has been logged in elsewhere. You need to check your account security.</string>
+    <string name="autologinloading">Automatic Loging in...</string>
+    <string name="level">User Rating</string>
+    <string name="levelupscore">Bonus Points Required for Next Upgrade</string>
+    <string name="curscore">Current Bonus Points</string>
+    <string name="diary">Growth Record</string>
+    <string name="selfalbum">Personal Album</string>
+    <string name="suretodelete">Are you sure to delete？</string>
+    <string name="findpw">Recover Password</string>
+
+    <!-- 自动更新 -->
+    <string name="upgrade_notify_text">Downloading WisdomIsland…</string>
+    <string name="upgrade_notify_finish_text">WisdomIsland download has been completed. Click to install.</string>
+    <string name="upgrade_notify_finishandsetup_text">WisdomIsland download has been completed. Click the Notice Bar to install.</string>
+    <string name="upgrade_title">Version Release</string>
+    <string name="no_SDcard">Please insert SD card first.</string>
+    <string name="download_faile">Failed to Download</string>
+    <string name="download_finish">Download Completed</string>
+    <string name="upgrade_now">Update Now</string>
+    <string name="upgrade_never">No Prompt Later</string>
+    <string name="upgrade_later">Update Next Time</string>
+
+    <!-- 相册 -->
+    <string name="loading_images">Loading Pictures. Please wait.</string>
+    <string name="album_photo_text">Photo Description</string>
+    <string name="album_photo_positon">0/0</string>
+    <string name="album_photo_arrow">Album Arrow</string>
+    <string name="album_photo_thuml">Album Cover</string>
+    <string name="album_photo_title">Album Title</string>
+    <string name="album_photo_super">Super Baby</string>
+    <string name="album_refresh">Click to Refresh</string>
+    <string name="album_nopic">No Pictures</string>
+    <string name="album_downfail">Failed to Download</string>
+    <string name="album_downfinish">Downloaded Attachments Successfully and Saved at:</string>
+    <string name="album_downfinish_openit">Check now or not?</string>
+    <string name="album_downloading">Downloading Data. Please wait…</string>
+    <string name="myphotomaxmsg">Only a maximum of <g id="part1">%1$s</g> photo can be saved.</string>
+
+    <!-- 咨询 -->
+    <string name="consultation_commit">Submit</string>
+    <string name="consultation_consignation">　　This is Kindergarten Head\'s Mailbox. If you have any opinions and suggestions on our management, your letters are welcome and we will consider your suggestions seriously. We also welcome the parents of new students to inquire the enrolment matters. Please leave us your contact details for our reply. </string>
+    <string name="consultation_contenthint">Please enter the content</string>
+    <string name="consultation_name">Your Name:</string>
+    <string name="consultation_phone">Contact Tel:</string>
+    <string name="consultation_email">Email:</string>
+    <string name="consultation_title">Message Theme:</string>
+    <string name="consultation_content">Message Content</string>
+    <string name="consultation_email_wrong">Please enter a valid email address.</string>
+    <string name="consultation_email_empty">Please enter your email address.</string>
+    <string name="consultation_name_empty">Please enter your name.</string>
+    <string name="consultation_tel_empty">Please enter your telephone number.</string>
+    <string name="consultation_tel_wrong">Please enter a valid phone number.</string>
+    <string name="consultation_content_empty">Please enter a message.</string>
+    <string name="consultation_input_contact_infomation">Please enter your contact details. </string>
+    <string name="consultation_send_success">Your information has been received. Exit or not?</string>
+    <string name="calling">Contact Details:</string>
+    <string name="feeding">Please enter your opinion:</string>
+    <string name="feeding_suggest">Opinions and Suggestions：</string>
+    <string name="consultation_name_input">Please enter your name.</string>
+    <string name="consultation_tel_input">Please enter your telephone number.</string>
+    <string name="consultation_mail_input">Please enter your email address.</string>
+    <string name="consultatio_title_input">Enter the message title.</string>
+    <string name="consultatio_content_input">&#160;&#160;Say something…</string>
+    <string name="feedback_email">Email</string>
+
+    <!-- 发送Push设置 -->
+    <string name="Sending">Sending…</string>
+    <string name="startPush">Push</string>
+    <string name="pushTimeSet">Push Time Period</string>
+    <string name="pushMethodSet">Notification Mode Settings</string>
+    <string name="pushSound">Voice Prompt</string>
+    <string name="pushShake">Vibration Prompt</string>
+    <string name="pushtimewrong">The start time shall be less than the end time.</string>
+    <string name="system_clearnews">Clear Campus Messages</string>
+    <string name="system_clearcnews">Clear Class Messages </string>
+    <string name="system_isclearnews">Are you sure to clear the Campus Messages?</string>
+    <string name="system_isclearcnews">Are you sure to clear the Class Messages？</string>
+    <string name="system_clear">Clear</string>
+    <string name="system_cancel">Cancel</string>
+    <string name="system_savewrong">Failed to Save！</string>
+
+    <!-- WisdomIsland channel -->
+    <string name="WisdomIsland_channel">WisdomIsland Channel</string>
+    
+    <!-- 客户服务 -->
+    <string name="customer_service">Customer service</string>
+
+    <!-- 刷新listview -->
+    <string name="pull_to_refresh_pull_label">Pull Down to Refresh</string>
+    <string name="pull_to_refresh_release_label">Release to Refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_tap_label">Click to Refresh</string>
+    <string name="pull_to_refresh_latest_label">Last Update Time: </string>
+
+    <!-- 导航默认title -->
+    <string name="navigation_default_title">Alliance of Primary and Middle Schools</string>
+    
+    <!-- 成长点滴 -->
+    <string name="diary_title">Title:</string>
+    <string name="diary_content">Content:</string>
+   	
+    <!-- 按钮 -->
+    <string name="btn_navigation">Home</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_add">Added</string>
+    <string name="btn_menu">Options</string>
+    <!-- 账号关联 -->
+        <string name="Please_ChooseSchool">Please Choose a School</string>
+    <string name="bindaccount_ChooseSchool">Choose a School:</string>
+    <string name="bindaccount_btn">Relation</string>
+    <string name="btn_delete">Delete</string>
+    <!-- vlc -->
+	<string name="time_0">0:00</string>
+	<string name="unknown_artist">Unknown Artists</string>
+  	<string name="unknown_album">Unknown Album</string>
+  	<string name="unknown_genre">Unknown Genre</string>
+  	<string name="locked">Locked</string>
+  	<string name="unlocked">Unlocked</string>
+  	<string name="surface_best_fit">Fittest</string>
+	<string name="surface_fit_horizontal">Horizontal Matching</string>
+	<string name="surface_fit_vertical">Vertical Matching</string>
+	<string name="surface_fill">Fill</string>
+	<string name="surface_original">Center</string>
+	<string name="preferences">Preference Settings</string>
+	<string name="main_prefs_category">Regular</string>
+	<string name="privacy_prefs_category">Privacy</string>
+	<string name="clear_history">Clear the Search History</string>
+	<string name="advanced_prefs_category">Advanced</string>
+	<string name="enable_iomx">Enable Hardware Accelerated Decoding</string>
+	<string name="advanced_debugging">Advanced Debugging</string>
+	<string name="quit">Exit the Application</string>
+	<string name="clear_media_db">Clear Media Database</string>
+	<string name="detect_headset">Headset Detection</string>
+	<string name="detect_headset_detail">Pause when the headphone is removed; continue to play when inserted</string>
+	<string name="enable_wheel_bar">Enable Scroll Bars</string>
+	<string name="enable_verbose_mode">Detailed Model</string>
+	<string name="enable_verbose_mode_detail">Enhanced Detail (logcat)</string>
+	<string name="aout">Audio Frequency Output</string>
+	<string name="aout_audiotrack">AudioTrack Category (Native)</string>
+	<string name="aout_audiotrack_java">AudioTrack Category (Java)</string>
+	<string name="aout_opensles">OpenSL ES</string>
+	<string name="error_no_neon">Sorry, this version of VLC for Android ™ devices does not support your equipment. </string>
+	<string name="mediafiles">Media Files </string>
+	<string name="filebrowser_root">Root</string>
+	<string name="directories">Directory</string>
+	<string name="filebrowser_title">Select the media file to be played</string>
+	<string name="validation">Are you sure?</string>
+	<string name="media_db_cleared">Media database cleared!</string>
+	<string name="set_locale_popup">Please exit and replace VLC to make the changes valid.</string>
+	<string name="encountered_error_title">Playback Error</string>
+    <string name="encountered_error_message">Encounter a problem when playing the media. Please try to refresh the media library .</string>
+    <string name="volume">Volume</string>
+    <string name="brightness">Brightness</string>
+    <string name="track_audio">Audio Track</string>
+    <string name="track_text">Subtitle Track</string>
+    <string name="unseekable_stream">Non-Skip-Enabled Streams</string>
+    <string name="ringtone_set">“%1$s” New ringtone has been set. </string>
+    <string name="ringtone_error">An error occurred while setting the ringtones</string>
+    <string name="invalid_location">Specified Position  %1$s Unable to Play </string>
+    <string name="widget_name" translatable="false">VLC mini player</string>
+    <string name="please_wait">Please wait…</string>
+	<string-array name="aouts_froyo">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+    </string-array>
+    <string-array name="aouts">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+        <item>@string/aout_opensles</item>
+    </string-array>
+    <string-array name="aouts_values_froyo" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="aouts_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- 分享 -->
+    <string name="shareSms">Sms</string>
+    <string name="shareEmail">Email</string>
+    <string name="shareSina">Sina weibo</string>
+    <string name="shareWechat">Wechat</string>
+    
+    <!-- 考勤 -->
+    <string name="attendance_title">Attendance Record</string>
+    <string name="attendance_all_status">Comprehensive situation:</string>
+    <string name="attendance_admission">Normal Admission:</string>
+    <string name="attendance_leave">Normal Departure:</string>
+    <string name="attendance_unusual">Abnormal:</string>
+    <string name="attendance_normal">Normal:</string>
+    <string name="attendance_absent">Absent:</string>
+    <string name="attendance_day">Days</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="firday">Friday</string>
+    <string name="saturday">Saturday</string>
+</resources>
