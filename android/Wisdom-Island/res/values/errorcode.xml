@@ -18,7 +18,7 @@
     <string name="ConsultTelOrMailNotNull">咨询回复电话或邮件地址不能为空</string>
     <string name="ConsultContentNotNull">咨询内容不可为空</string>
     <string name="ConsultNameNotNull">咨询姓名不可为空</string>
-    <string name="LoginInfoNoMoney">此账号已过期,请登录E宝贝Windows客户端充值</string>
+    <string name="LoginInfoNoMoney">此账号已过期,请登录智慧岛Windows客户端充值</string>
     <string name="NotTeacher">非教师身份</string>
     <string name="OrgNotExist">组织不存在</string>
     <string name="EventStartDateEmpty">发布event起始时间为空</string>

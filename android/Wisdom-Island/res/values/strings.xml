@@ -55,10 +55,10 @@
     <string name="sent">已发消息</string>
     <string name="hjt">互教通\n(考勤)</string>
     <string name="ask4leave">告假申请</string>
-    <string name="exit_sure2">要退出E宝贝吗？</string>
+    <string name="exit_sure2">要退出智慧岛吗？</string>
     <string name="logout_sure">需要切换学校吗？这样会注销哦</string>
     <string name="enter">进入</string>
-    <string name="welcomesharecontent">我刚安装了E宝贝Android客户端，家长可随时随地通过移动终端了解学校简介、校园通知、班级信息、教师反馈、互动交流等信息，加强家校互动，共同关注幼儿成长，动动手指就能搞定，快来体验吧！下载地址：</string>
+    <string name="welcomesharecontent">我刚安装了智慧岛Android客户端，家长可随时随地通过移动终端了解学校简介、校园通知、班级信息、教师反馈、互动交流等信息，加强家校互动，共同关注幼儿成长，动动手指就能搞定，快来体验吧！下载地址：</string>
     <string name="welcomeback">欢迎回来:</string>
     <!-- 告假申请 -->
     <string name="leave_application">告假</string>
@@ -259,10 +259,10 @@
     <string name="pwdandrepeatpwd_isnt_consistent">密码和确认密码不一致</string>
     <string name="kindergartens">校园集合</string>
     <!-- 关于模块 -->
-    <string name="about">关于E宝贝</string>
+    <string name="about">关于智慧岛</string>
     <string name="version">版本</string>
     <string name="aboutchinacampus">关于大塘拔萃</string>
-    <string name="about_detailed">E宝贝是面向教育机构的家园沟通平台，家长可随时随地通过E宝贝了解教育机构简介、通知、课程信息和互动交流等，加强与学校间的互动，共同关注宝贝成长。如果您有改进和更新功能的建议，我们非常乐意倾听。</string>
+    <string name="about_detailed">智慧岛是面向教育机构的家园沟通平台，家长可随时随地通过智慧岛了解教育机构简介、通知、课程信息和互动交流等，加强与学校间的互动，共同关注宝贝成长。如果您有改进和更新功能的建议，我们非常乐意倾听。</string>
     <string name="copyright">运营服务商:广州澳星软件科技有限公司\n服务热线:400-700-6560\n技术研发商:广州热点软件有限公司</string>
     <string name="remenber_profile_key">记住Profile key</string>
     <string name="profile_key_prompt">请输入Profile Key</string>
@@ -274,10 +274,10 @@
     <string name="httplink">http://www.doctorcom.com/drpalm</string>
     <string name="phonelink">400–700–6560</string>
     <string name="iddail">拨打电话 400–700–6560</string>
-    <string name="hotlinetitle">E宝贝客服竭诚为您服务</string>
+    <string name="hotlinetitle">智慧岛客服竭诚为您服务</string>
     <string name="sharesubject">幼教移动客户端</string>
     <string name="shareerrormessage">您的系统没有安装这个程序</string>
-    <string name="sharetitle">我刚安装了E宝贝移动客户端，让您可随时随地通过移动终端了解学校简介、校园通知、班级信息、教师反馈、互动交流等信息，加强家校互动，动动手指就能搞定，快来体验吧！下载地址：</string>
+    <string name="sharetitle">我刚安装了智慧岛移动客户端，让您可随时随地通过移动终端了解学校简介、校园通知、班级信息、教师反馈、互动交流等信息，加强家校互动，动动手指就能搞定，快来体验吧！下载地址：</string>
     <string name="shareurl">http://www.astar.so/WisdomIsland/</string>
     <!-- 登录 -->
     <string name="onlinelogin">在线登录</string>
@@ -307,9 +307,9 @@
     <string name="suretodelete">确定删除？</string>
     <string name="findpw">找回密码</string>
     <!-- 自动更新 -->
-    <string name="upgrade_notify_text">E宝贝下载中...</string>
-    <string name="upgrade_notify_finish_text">E宝贝已经下载完成, 点击安装</string>
-    <string name="upgrade_notify_finishandsetup_text">E宝贝已经下载完成, 点击通知栏安装</string>
+    <string name="upgrade_notify_text">智慧岛下载中...</string>
+    <string name="upgrade_notify_finish_text">智慧岛已经下载完成, 点击安装</string>
+    <string name="upgrade_notify_finishandsetup_text">智慧岛已经下载完成, 点击通知栏安装</string>
     <string name="upgrade_title">版本发布</string>
     <string name="no_SDcard">请先插入SD卡</string>
     <string name="download_faile">下载失败</string>
@@ -374,7 +374,7 @@
     <string name="system_cancel">取消</string>
     <string name="system_savewrong">保存失败！</string>
     <!-- WisdomIsland channel -->
-    <string name="WisdomIsland_channel">E宝贝频道</string>
+    <string name="WisdomIsland_channel">智慧岛频道</string>
     <!-- 客户服务 -->
     <string name="customer_service">客服</string>
     <!-- 账号关联 -->

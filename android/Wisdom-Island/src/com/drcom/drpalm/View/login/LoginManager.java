@@ -335,7 +335,7 @@ public class LoginManager {
 	}
 	
 	/**
-	 * 用于解决定制客户端与E宝贝自动登录同步问题
+	 * 用于解决定制客户端与智慧岛自动登录同步问题
 	 * @param name sharepreference 文件名
 	 * @param key  
 	 * @return
