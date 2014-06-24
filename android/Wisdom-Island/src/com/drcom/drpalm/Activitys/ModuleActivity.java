@@ -109,9 +109,9 @@ public abstract class ModuleActivity extends BaseDrawColseActivity {
 		});
 
 		if (this.mBitmapTitleLogo != null) {
-//			setTitleLogo(this.mBitmapTitleLogo);
+			setTitleLogo(this.mBitmapTitleLogo);
 		}else{
-//			ImageView_Logo.setImageBitmap( ((BitmapDrawable) getResources().getDrawable(R.drawable.defaulttitlelogo)).getBitmap());
+			ImageView_Logo.setImageBitmap( ((BitmapDrawable) getResources().getDrawable(R.drawable.defaulttitlelogo)).getBitmap());
 		}
 
 		
@@ -130,13 +130,13 @@ public abstract class ModuleActivity extends BaseDrawColseActivity {
 	 */
 	public void setTitleLogo(Bitmap bm) {
 		// Bitmap bm = null; // 从数据库读取相应学校的图标
-		if(bm != null){
-			this.mBitmapTitleLogo = bm;
-			ImageView_Logo.setImageBitmap(this.mBitmapTitleLogo);
-			
-			ImageView_Logo.setVisibility(View.VISIBLE);
-			TextView_Title.setVisibility(View.GONE);
-		}
+//		if(bm != null){
+//			this.mBitmapTitleLogo = bm;
+//			ImageView_Logo.setImageBitmap(this.mBitmapTitleLogo);
+//			
+//			ImageView_Logo.setVisibility(View.VISIBLE);
+//			TextView_Title.setVisibility(View.GONE);
+//		}
 	}
 
 	/**

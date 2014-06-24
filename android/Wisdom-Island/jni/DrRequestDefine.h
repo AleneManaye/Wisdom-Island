@@ -27,8 +27,10 @@
 #define TOURS_VERIFYCODE 		"verifycode"
 
 //getnetworkgate
-#define NETAPP_PATH				"drpalm4/netapp"
-#define WEBAPI_PATH 			"Ebaby4/mobileapi"
+#define NETAPP_PATH				"drpalm/netapp"
+#define WEBAPI_PATH 			"Ebaby32/mobileapi"
+//#define NETAPP_PATH				"drpalm4/netapp"
+//#define WEBAPI_PATH 			"Ebaby4/mobileapi"
 #define WEBAPI4ATTENDANCE_PATH 	"ebservice/mobileapi"
 #define GET_GATE_PATH			"getAppGw"
 #define GET_SCHOOLKEY_PATH      "org.drcom.drpalm.getSchoolKey.flow"

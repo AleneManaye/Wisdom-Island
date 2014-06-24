@@ -62,7 +62,7 @@ public class GlobalVariables extends Application {
 
 	// Center Information
 	// 中心地址
-	public static String gCenterDomain = "http://220.232.237.221:8001";//HK正式环境		"http://58.67.148.65:8129";//HK测试环境	 // 		广电"http://192.168.12.214:8004";//广电 //"http://58.67.148.65:8129";//高主教  //"http://drpalm.doctorcom.com:8080";//正式
+	public static String gCenterDomain = "http://42.121.12.89:8080";//"http://220.232.237.221:8001";//HK正式环境		"http://58.67.148.65:8129";//HK测试环境	 // 		广电"http://192.168.12.214:8004";//广电 //"http://58.67.148.65:8129";//高主教  //"http://drpalm.doctorcom.com:8080";//正式
 	public static String gSchoolKey = "";
 	public static String gResourceVersion = "";
 	// School Information
