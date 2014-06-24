@@ -108,7 +108,7 @@
 	<block id="9992" type="class" icon="icon_class_ask4leave" name="ask4leave" namechs="告假申请" namecht="告假申請"
 	    nameen="Absence">
 		<show>
-			true
+			false
 		</show>
 	</block>
 	

@@ -323,7 +323,7 @@ public class MoreView extends LinearLayout {
 		 * modify by kk for test
 		 */
 		EventsSentDetailActivityManagement mEventsSentDetailActivityManagement = new EventsSentDetailActivityManagement(mContext , "");
-		String templateHtml =  mEventsSentDetailActivityManagement.readTextFromResource(R.raw.events_detail);
+		String templateHtml =  mEventsSentDetailActivityManagement.readTextFromResource(R.raw.chanel);
 		mWebView.loadDataWithBaseURL("file:///android_res/raw/", templateHtml, "text/html", "UTF-8", null);
 //		mWebView.loadUrl(url);
 	}
