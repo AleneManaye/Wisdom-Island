@@ -28,8 +28,7 @@
                 android:layout_alignParentBottom="true"
                 android:clickable="true"
                 android:content="@+id/content"
-                android:handle="@+id/handle"
-                android:visibility="gone" >
+                android:handle="@+id/handle" >
 
                 <!--
                 <include
