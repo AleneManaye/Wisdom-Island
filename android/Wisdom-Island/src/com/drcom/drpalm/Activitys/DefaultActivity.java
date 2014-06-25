@@ -57,11 +57,16 @@ public class DefaultActivity extends Activity {
 	 * 打开下一个窗体
 	 */
 	private void NextActivity(){
+		/*
+		 * modify by kk for test
+		 *  关闭欢迎界面
+		 */
+		/*
 		if (isFirstEnter()) {
 			Intent sendIntent = new Intent();
 			sendIntent.setClass(DefaultActivity.this,FirstSettingActivity.class);
 			startActivity(sendIntent);
-		}else if(GlobalVariables.getAppDefaultSchoolKey()){
+		}else */if(GlobalVariables.getAppDefaultSchoolKey()){
 			//保存为默认的SCHOOL
 			SharedPreferences  preferences = getSharedPreferences("default_school", Context.MODE_PRIVATE);
 			SharedPreferences.Editor editor = preferences.edit();

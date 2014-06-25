@@ -1,0 +1,116 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="width=device-width initial-scale=1 minimum-scale=1 maximum-scale=1" name="viewport" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="telephone=no" name="format-detection" />
+<title>E baby</title><style type="text/css">
+body{padding:0;margin:0;background:#FFEAD7}
+a{text-decoration:none;}
+.titlelink{font-weight:bolder;color:#0078A0;font-size:17px}
+.channel-item{padding:8px 8px 8px 0px;margin:0}
+.channel-item-touch{background:#eee}
+.item-top{position:relative;height:20px}
+.title,.newflag{display:inline-block;position:absolute}
+.newflag{right:0;width:36px;top:0}
+.content-con{font-size:16px;color:#333;min-height:30px}
+.content-con p{margin-top:8px}
+.content-con img{width:110px;height:90px}
+.morecon{padding:10px 0px 6px 6px;font-size:18px;font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;height:26px;background:url(/Ebaby4/public/frontlib/images/ebabychannel2/channelbanner.png);
+background-size:100% 100%;background-color:#ccc;border-radius:8px;margin:4px;position: relative}
+.channel-name,.channel-newflag,.channel-morelink{display:inline-block;position:absolute}
+.channel-name{color:#666;left:40%;text-shadow:0px 2px 1px #fff}
+.channel-newflag{text-shadow:none;left:100%;top:-10px;color:#fff;background:url(/Ebaby4/public/frontlib/images/ebabychannel2/newchannelcorner.png);
+padding:4px 4px 6px 4px;text-align:center;min-width:25px;background-size:100% 100%;font-size:12px}
+.channel-morelink{right:4px;top:14px;font-size:14px;color:#555}
+.channel-morelink a{color:#007BBB;font-weight:bold;
+padding:8px;background:url(/Ebaby4/public/frontlib/images/ebabychannel2/channelmore.png);
+background-size:100% 100%}
+.item-bottom{text-align:right;height:18px}
+.createdate,.goodchannel,.notgoodchannel{display:inline-block}
+.goodchannel,.notgoodchannel{background:url(/Ebaby4/public/frontlib/images/ebabychannel2/icon-good-or-not.png) no-repeat;
+width:20px;height:18px;margin-right:4px}
+.goodchannel{background-position-x:-25px}
+.praisetip{color:#666;font-size:12px}
+.categoryname{font-size:12px;display:block;width:2em;float:left;box-shadow:1px 1px 6px #999;line-height:1;
+border-radius:2px;padding:4px 6px 4px 6px;margin:12px 8px 0;border:1px solid #eee;background:#f8f8f8}
+.item-right{overflow:hidden;box-shadow:1px 1px 8px #999;border-radius:4px;padding:4px;border:1px solid #eee;background:#f8f8f8}
+.createdate{font-size:12px;color:#0cf;top:6px;right:0}
+.c1{color:rgb(255,192,0)}
+.c2{color:rgb(112,48,160)}
+.c3{color:rgb(146,208,80)}
+.c4{color:rgb(255,255,0)}
+.c5{color:rgb(0,176,240)}
+.c6{color:rgb(0,176,80)}
+.c7{color:rgb(199,14,167)}
+.c8{color:rgb(255,46,77)}</style>
+</head>
+<body>
+<div>
+<div class="morecon">
+<div class="channel-name">智慧岛趣闻</div>
+</div>
+<div class="itemcon">
+
+</div>
+</div>
+<script type="text/javascript" src="/Ebaby4/public/min/?g=langzh-hansjs"></script>
+<script type="text/javascript" src="/Ebaby4/public/frontlib/jslib/jquery.js"></script>
+<script type="text/javascript">
+var tokenid='';
+$(function(){
+	$('.notgoodchannel').live('click',function(){
+		var $t=$(this);
+		$.get('itsgood?ac=good&asyn=1&id='+$t.attr('cid')+'&tokenid='+tokenid,function(d){
+			if(d.flag)
+			{
+				$t.removeClass('notgoodchannel').addClass('goodchannel');
+				var n=parseInt($t.prev('.praisetip').text());
+				if(!n)n=0;
+				n+=1;
+				$t.prev('.praisetip').text('+'+n);
+			}
+			});
+		return false;
+		});
+	$('.goodchannel').live('click',function(){
+		var $t=$(this);
+		$.get('itsgood?ac=notgood&asyn=1&id='+$t.attr('cid')+'&tokenid='+tokenid,function(d){
+			if(d.flag)
+			{
+				$t.removeClass('goodchannel').addClass('notgoodchannel');
+				var n=parseInt($t.prev('.praisetip').text());
+				n-=1;
+				if(n)
+				{
+					$t.prev('.praisetip').text('+'+n);
+				}else{
+					$t.prev('.praisetip').text('');
+				}
+			}
+			});
+		return false;
+		});
+	$('.item-right').on('touchstart',function()
+			{
+		$('.channel-item-touch').removeClass('channel-item-touch');
+		$(this).closest('.channel-item').addClass('channel-item-touch');
+			});
+	$('.content-con').on('click',function(e){
+		var $t=$(e.target);
+		if($t.is('.titlelink')||$t.is('.categoryname')||$t.is('.goodchannel')||$t.is('.notgoodchannel'))return;
+var p=$(this).closest('.channel-item');location.href=p.find('.titlelink').attr('href');
+//$.clicktoviewdetail=p.find('.newflag');
+});
+	/*$(window).on('beforeunload',function(){
+		if($.clicktoviewdetail.get(0))
+		{
+			$.clicktoviewdetail.remove();
+		}
+		$.clicktoviewdetail=null;
+		});*/
+});
+</script>
+</body>
+</html>

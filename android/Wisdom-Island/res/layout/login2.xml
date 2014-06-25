@@ -128,7 +128,8 @@
                     android:text="@string/bindaccount"
                     android:textColor="@color/help_view"
                     android:textSize="15sp"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:visibility="gone" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

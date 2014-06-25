@@ -28,11 +28,13 @@ import android.widget.TextView;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Activitys.consultation.FeedBackActivity;
+import com.drcom.drpalm.Activitys.events.sent.EventsSentDetailActivity;
 import com.drcom.drpalm.Activitys.setting.AboutApplicationActivity;
 import com.drcom.drpalm.Activitys.setting.AccountManageActivity;
 import com.drcom.drpalm.Activitys.setting.SystemActivity;
 import com.drcom.drpalm.Activitys.web.WebviewActivity;
 import com.drcom.drpalm.View.controls.PageControlView;
+import com.drcom.drpalm.View.events.sent.EventsSentDetailActivityManagement;
 import com.drcom.drpalm.View.login.LoginManager;
 import com.drcom.drpalm.View.login.LoginManager.LogoutCallback;
 import com.drcom.drpalm.objs.ShareToFriendItem;
@@ -317,7 +319,13 @@ public class MoreView extends LinearLayout {
 			+ GlobalVariables.gSchoolId;
 		}
 		
-		mWebView.loadUrl(url);
+		/*
+		 * modify by kk for test
+		 */
+		EventsSentDetailActivityManagement mEventsSentDetailActivityManagement = new EventsSentDetailActivityManagement(mContext , "");
+		String templateHtml =  mEventsSentDetailActivityManagement.readTextFromResource(R.raw.chanel);
+		mWebView.loadDataWithBaseURL("file:///android_res/raw/", templateHtml, "text/html", "UTF-8", null);
+//		mWebView.loadUrl(url);
 	}
 
 	/**

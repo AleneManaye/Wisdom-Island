@@ -24,8 +24,9 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/bookmark_btn_small_1_selector"
-                android:text="" />
-
+                android:text=""
+                android:visibility="gone" />
+
             <Button
                 android:id="@+id/buttonSearch"
                 android:layout_width="30dp"
@@ -34,7 +35,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_toLeftOf="@+id/buttonBookmark"
                 android:background="@drawable/search_btn_small_1_selector"
-                android:text="" />
+                android:text=""
+                android:visibility="gone" />
 
         </RelativeLayout>
 
@@ -60,14 +62,16 @@
                     android:id="@+id/button3"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:background="@drawable/btn_consult_selector" />
+                    android:background="@drawable/btn_consult_selector"
+                    android:visibility="gone" />
 
                 <TextView
                     android:id="@+id/masterEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/schoolmail"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
             </LinearLayout>
         </RelativeLayout>
 
