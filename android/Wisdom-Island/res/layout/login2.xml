@@ -9,7 +9,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="@color/white"
         android:orientation="vertical" >
 
         <ImageView
@@ -90,7 +89,8 @@
                 android:layout_marginTop="8dp"
                 android:background="@drawable/login_btn_findpw_selector"
                 android:text="@string/findpw"
-                style="@style/BtnText" />
+                style="@style/BtnText"
+                android:visibility="gone" />
             <!-- 保存账号按钮 -->
 
             <LinearLayout

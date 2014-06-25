@@ -303,25 +303,26 @@ public class RequestOperation {
 							
 							DrServiceLog.getInstance(GlobalVariables.gAppContext);
 							
-							PushManager.init(GlobalVariables.gAppContext,new ConnectPushCallback() {
-
-								@Override
-								public void onSuccess() {
-									// TODO Auto-generated method stub
-									try {
-										PushManager.Register(GlobalVariables.gSchoolId, GlobalVariables.gSchoolKey);
-									} catch (RemoteException e) {
-										// TODO Auto-generated catch block
-										e.printStackTrace();
-									}
-								}
-								
-								@Override
-								public void onError(String err) {
-									// TODO Auto-generated method stub
-									
-								}
-							});
+//							//注册PUSH
+//							PushManager.init(GlobalVariables.gAppContext,new ConnectPushCallback() {
+//
+//								@Override
+//								public void onSuccess() {
+//									// TODO Auto-generated method stub
+//									try {
+//										PushManager.Register(GlobalVariables.gSchoolId, GlobalVariables.gSchoolKey);
+//									} catch (RemoteException e) {
+//										// TODO Auto-generated catch block
+//										e.printStackTrace();
+//									}
+//								}
+//								
+//								@Override
+//								public void onError(String err) {
+//									// TODO Auto-generated method stub
+//									
+//								}
+//							});
 							
 //							RegAppPush(regItem, new RequestOperationCallback(){
 //								@Override
