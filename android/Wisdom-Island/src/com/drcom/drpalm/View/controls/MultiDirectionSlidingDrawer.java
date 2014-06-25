@@ -35,7 +35,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 /**
  * 自定义抽届
  * @author Administrator

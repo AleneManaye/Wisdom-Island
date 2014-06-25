@@ -25,7 +25,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class CommonActions {
 

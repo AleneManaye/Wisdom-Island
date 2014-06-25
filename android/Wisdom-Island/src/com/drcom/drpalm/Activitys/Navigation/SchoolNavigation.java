@@ -52,7 +52,7 @@ import com.drcom.drpalm.View.controls.CornerListView.OnCornerChanged;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NavigationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 选地区

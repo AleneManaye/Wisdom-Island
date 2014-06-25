@@ -32,7 +32,7 @@ import com.drcom.drpalm.View.controls.RefreshListView.OnRefreshListener;
 import com.drcom.drpalm.View.news.album.AlbumActivityManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 相册列表

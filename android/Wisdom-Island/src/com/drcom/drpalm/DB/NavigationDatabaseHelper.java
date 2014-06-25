@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.drcom.drpalm.GlobalVariables;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NavigationDatabaseHelper extends SQLiteOpenHelper {
 

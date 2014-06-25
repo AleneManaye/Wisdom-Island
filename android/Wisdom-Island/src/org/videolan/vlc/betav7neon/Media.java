@@ -29,7 +29,7 @@ import org.videolan.libvlc.TrackInfo;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.Imagetool.BitmapCache;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteFullException;

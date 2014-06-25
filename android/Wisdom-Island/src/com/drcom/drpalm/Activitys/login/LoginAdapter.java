@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.drcom.drpalm.Tool.XmlParse.UserInfo;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class LoginAdapter extends ArrayAdapter<UserInfo> {
 	private Context mContext;

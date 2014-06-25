@@ -1,5 +1,5 @@
 package com.drcom.drpalm.View.controls;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.content.Context;
 import android.graphics.Color;

@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.drcom.drpalm.Tool.CommonTranslate.DateFormatter;
 import com.drcom.drpalm.objs.AttendanceinfoItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class AttendanceAdapter extends BaseAdapter {
 	private List<AttendanceinfoItem> itemList ;

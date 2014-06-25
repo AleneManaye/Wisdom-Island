@@ -45,7 +45,7 @@ import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.EventDetailsItem.Replyer;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsSentDetailActivity extends ModuleActivity{
 	public static String KEY_EVENT_ID = "KEY_EVENT_ID";

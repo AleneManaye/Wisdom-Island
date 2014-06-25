@@ -21,7 +21,7 @@ import com.drcom.drpalm.View.events.bookmark.EventsBookmarkListActivityManagemen
 import com.drcom.drpalm.View.events.search.EventsSearchListActivityManagement;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsBookmarkListActivity extends ModuleActivity {
 	public static final int UPDATEFINISH = 1; // 刷新请求返回成功

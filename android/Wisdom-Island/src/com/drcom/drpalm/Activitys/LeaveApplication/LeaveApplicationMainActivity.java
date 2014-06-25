@@ -38,7 +38,7 @@ import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.LeaveApplicationMainItem;
 import com.drcom.drpalm.objs.MessageObject;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * @author zhr

@@ -14,7 +14,7 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class DrCOMService extends Service {
 	private DrCOMServiceListener m_DrCOMServicelistener = null;

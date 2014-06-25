@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.drcom.drpalm.View.controls.MyViewGroup.ScrollToScreenCallback;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 
 public class PageControlView extends LinearLayout implements

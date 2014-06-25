@@ -26,7 +26,7 @@ import com.drcom.drpalm.View.consultation.FeedBackActivityManagement;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.ConsultDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 意见反馈

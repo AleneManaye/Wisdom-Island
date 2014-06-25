@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 import com.drcom.drpalm.View.controls.MyGridView;
 import com.drcom.drpalm.objs.ShareToFriendItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ShareChildView extends LinearLayout{
 	 private MyGridView myGridView;

@@ -22,7 +22,7 @@ import com.drcom.drpalm.View.controls.NewSearchBar.OnSearchButtonClickListener;
 import com.drcom.drpalm.View.news.search.NewsSearchListActivityManagement;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NewsSearchListActivity extends ModuleActivity {
 	public static final int UPDATEFINISH = 1; // 刷新请求返回成功

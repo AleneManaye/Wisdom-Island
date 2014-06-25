@@ -36,7 +36,7 @@ import com.drcom.drpalm.View.controls.MyWebview;
 import com.drcom.drpalm.View.news.NewsDetailActivityManagement;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
 *

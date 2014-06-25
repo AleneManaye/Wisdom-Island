@@ -17,7 +17,7 @@ import com.drcom.drpalm.Activitys.main.SchoolView;
 import com.drcom.drpalm.Tool.LanguageManagement;
 import com.drcom.drpalm.Tool.ResourceManagement;
 import com.drcom.drpalm.Tool.LanguageManagement.CurrentLan;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * Tours

@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.drcom.drpalm.Activitys.fragments.BaseStartFragment;
 import com.drcom.drpalm.Activitys.util.AnimationFragmentUtil;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 import com.drcom.ui.View.tool.MyMothod;
 
 import java.io.IOException;

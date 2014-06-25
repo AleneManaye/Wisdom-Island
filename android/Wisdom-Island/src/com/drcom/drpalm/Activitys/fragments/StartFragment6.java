@@ -14,7 +14,7 @@ import com.drcom.drpalm.Activitys.Navigation.NavigationMainActivity;
 import com.drcom.drpalm.Activitys.main.MainActivity;
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.LanguageManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * Created by 梁炜杰 on 2014/5/28.

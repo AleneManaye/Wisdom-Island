@@ -19,7 +19,7 @@ import com.drcom.drpalm.View.login.LoginManager;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.View.sysinfo.SysinfoDetailActivityManagement;
 import com.drcom.drpalm.objs.SystemInfoItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 系统消息

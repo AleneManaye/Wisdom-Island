@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.drcom.drpalm4tianzhujiao"
+    package="com.wisdom.island"
     android:versionCode="9"
-    android:versionName="4.0.1301" >
+    android:versionName="1.0.1" >
 
     <uses-sdk android:minSdkVersion="8" />
-    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.drcom.drpalm4tianzhujiao"/>
+    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.wisdom.island"/>
     <application
         android:name="com.drcom.drpalm.GlobalVariables"
         style="COLOR: #ff0000"
@@ -786,8 +786,8 @@
         </receiver>
         <receiver android:name="com.drcom.drpalm.Tool.PushReceiver" >
             <intent-filter>
-                <action android:name="com.drcom.drpalm4tianzhujiao.PUSH_GETMESSAGE_ACTION" />
-                <action android:name="com.drcom.drpalm4tianzhujiao.PUSH_UPGRADEAPP_ACTION" />
+                <action android:name="com.wisdom.island.PUSH_GETMESSAGE_ACTION" />
+                <action android:name="com.wisdom.island.PUSH_UPGRADEAPP_ACTION" />
             </intent-filter>
         </receiver>
 

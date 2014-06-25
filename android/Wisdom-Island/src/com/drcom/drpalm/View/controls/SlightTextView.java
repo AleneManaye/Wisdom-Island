@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class SlightTextView extends TextView implements Runnable {
 	

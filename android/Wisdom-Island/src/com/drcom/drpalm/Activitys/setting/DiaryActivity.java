@@ -26,7 +26,7 @@ import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.DiaryManager;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.DiaryItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 成长点滴

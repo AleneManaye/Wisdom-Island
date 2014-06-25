@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.drcom.drpalm.objs.MainMenuItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class MainAdapter extends ArrayAdapter<MainMenuItem> {
 	private List<MainMenuItem> itemList ;

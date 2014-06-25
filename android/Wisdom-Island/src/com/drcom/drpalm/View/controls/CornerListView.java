@@ -13,7 +13,7 @@ import android.view.MotionEvent;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class CornerListView extends ListView{
 	public OnCornerChanged mOnCornerChanged = null;

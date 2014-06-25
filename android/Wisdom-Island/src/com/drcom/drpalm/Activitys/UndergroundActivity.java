@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.Window;
 
 import com.drcom.drpalm.Definition.ActivityActionDefine;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 底部界面

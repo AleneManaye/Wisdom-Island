@@ -31,7 +31,7 @@ import com.drcom.drpalm.Tool.request.RequestOperationReloginCallback;
 import com.drcom.drpalm.View.events.reply.EventsReplyActivityManagement;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.AwsContentItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**      
  * Date         : 2012-8-6

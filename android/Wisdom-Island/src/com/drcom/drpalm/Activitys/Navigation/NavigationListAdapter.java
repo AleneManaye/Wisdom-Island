@@ -21,7 +21,7 @@ import com.drcom.drpalm.Tool.LanguageManagement;
 import com.drcom.drpalm.Tool.LanguageManagement.CurrentLan;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.objs.NavigationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NavigationListAdapter extends BaseAdapter{
 	

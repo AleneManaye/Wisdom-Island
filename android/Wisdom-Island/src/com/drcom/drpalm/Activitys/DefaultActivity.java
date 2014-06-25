@@ -14,7 +14,7 @@ import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Activitys.Navigation.NavigationMainActivity;
 import com.drcom.drpalm.Activitys.main.FirstSettingActivity;
 import com.drcom.drpalm.Activitys.main.MainActivity;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 欢迎界面

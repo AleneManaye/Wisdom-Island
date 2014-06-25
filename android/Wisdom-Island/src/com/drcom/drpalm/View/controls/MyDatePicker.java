@@ -12,7 +12,7 @@ import com.drcom.drpalm.View.controls.wheel.NumericWheelAdapter;
 import com.drcom.drpalm.View.controls.wheel.OnWheelChangedListener;
 import com.drcom.drpalm.View.controls.wheel.OnWheelScrollListener;
 import com.drcom.drpalm.View.controls.wheel.WheelView;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 日期控件

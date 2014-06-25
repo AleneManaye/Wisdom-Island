@@ -26,7 +26,7 @@ import org.videolan.vlc.betav7neon.interfaces.IPlayerControl;
 import org.videolan.vlc.betav7neon.interfaces.OnPlayerControlListener;
 
 import com.drcom.drpalm.GlobalVariables;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

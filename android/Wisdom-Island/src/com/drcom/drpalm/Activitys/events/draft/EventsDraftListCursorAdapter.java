@@ -23,7 +23,7 @@ import com.drcom.drpalm.Tool.Imagetool.BitmapCache;
 import com.drcom.drpalm.Tool.drHttpClient.DrRequestImgsTask;
 import com.drcom.drpalm.View.controls.myinterface.UICallBack;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /*      
  * Date         : 2012-4-24

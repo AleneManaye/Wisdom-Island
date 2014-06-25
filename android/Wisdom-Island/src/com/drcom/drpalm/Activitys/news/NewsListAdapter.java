@@ -16,7 +16,7 @@ import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.CommonTranslate.DateFormatter;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import java.util.Date;
 import java.util.List;

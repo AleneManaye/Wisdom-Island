@@ -28,7 +28,7 @@ import com.drcom.drpalm.Definition.ActivityActionDefine;
 import com.drcom.drpalm.Tool.DownloadProgressUtils;
 import com.drcom.drpalm.View.controls.TipsHelper;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 import com.drcom.ui.View.controls.DrawCloseActivity.BaseDrawColseActivity;
 import com.drcom.ui.View.controls.Gif.TypegifView;
 

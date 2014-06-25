@@ -18,7 +18,7 @@ import com.drcom.drpalm.Activitys.events.NewEventActivity;
 import com.drcom.drpalm.Tool.request.RequestOperationReloginCallback;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.events.review.ReviewActivityManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 回评

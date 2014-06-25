@@ -40,7 +40,7 @@ import android.widget.TextView;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Activitys.ModuleActivity;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 
 public class DrCOMWS extends ModuleActivity {

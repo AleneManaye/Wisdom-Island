@@ -22,7 +22,7 @@ import com.drcom.drpalm.Activitys.Navigation.SchoolNavigation;
 import com.drcom.drpalm.Activitys.bindaccount.InstitutionList.SchoolkeyReceiver;
 import com.drcom.drpalm.Tool.Encryption;
 import com.drcom.drpalm.View.bindaccount.BindaccountListManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NewbindaccountActivity extends ModuleActivity implements OnClickListener{
 	

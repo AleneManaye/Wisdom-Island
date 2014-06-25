@@ -61,7 +61,7 @@ import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.EventDetailsItem.Imags;
 import com.drcom.drpalm.objs.EventDetailsItem.Replyer;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 相册详细，用ViewGroup 实现画廊效果，抽屉显示相片信息，子控件用WebView实现

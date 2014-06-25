@@ -16,7 +16,7 @@ import android.widget.TextView;
 import com.drcom.drpalm.DB.NavigationDB;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.objs.NavigationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NavigationListviewAdapter extends CursorAdapter{
 	private Context mContext;

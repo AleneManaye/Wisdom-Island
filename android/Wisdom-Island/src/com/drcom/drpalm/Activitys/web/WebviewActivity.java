@@ -13,7 +13,7 @@ import android.webkit.WebViewClient;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Activitys.ModuleActivity;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class WebviewActivity extends ModuleActivity {
 	public static String URL_KEY = "URL_KEY";

@@ -39,7 +39,7 @@ import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.objs.EventDraftItem.Attachment;
 import com.drcom.drpalm.objs.MyPhoto;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class AddPhotoActivity extends ModuleActivity{
 	public static String KEY_ISEDIT = "KEY_ISEDIT";

@@ -26,7 +26,7 @@ import com.drcom.drpalm.View.LeaveApplication.SelectReceiverManager;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.objs.ReceiverItem;
 import com.drcom.drpalm.objs.ReceiverResultItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class PageIndicatorView extends View {
 	private String TAG = "PageIndicatorView";

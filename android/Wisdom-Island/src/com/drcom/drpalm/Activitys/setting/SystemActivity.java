@@ -39,7 +39,7 @@ import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.View.login.LoginManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.SettingManager;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 import com.drcom.ui.View.controls.SlipBtn.SlipButton;
 import com.drcom.ui.View.controls.SlipBtn.SlipButton.OnChangedListener;
 

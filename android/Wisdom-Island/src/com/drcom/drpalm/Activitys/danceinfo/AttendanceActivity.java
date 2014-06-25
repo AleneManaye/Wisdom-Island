@@ -23,7 +23,7 @@ import com.drcom.drpalm.View.danceinfo.AttendanceinfoManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.AttendanceinfoItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 考勤

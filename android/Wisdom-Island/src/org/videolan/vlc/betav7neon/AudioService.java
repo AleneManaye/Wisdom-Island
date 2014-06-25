@@ -73,7 +73,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.drcom.drpalm.GlobalVariables;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class AudioService extends Service {
 

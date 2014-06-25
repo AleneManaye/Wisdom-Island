@@ -48,7 +48,7 @@ import com.drcom.drpalm.View.controls.cache.ImageLoader.FileCallback;
 import com.drcom.drpalm.View.myphoto.MyPhotoDetailActivityManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.MyPhoto;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 相册详细，用ViewGroup 实现画廊效果，抽屉显示相片信息，子控件用WebView实现

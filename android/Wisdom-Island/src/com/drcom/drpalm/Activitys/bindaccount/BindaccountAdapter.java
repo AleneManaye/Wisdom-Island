@@ -20,7 +20,7 @@ import com.drcom.drpalm.Tool.LanguageManagement;
 import com.drcom.drpalm.Tool.LanguageManagement.CurrentLan;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.objs.BindaccountItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class BindaccountAdapter extends BaseAdapter implements OnClickListener {
 	private List<BindaccountItem> mData;

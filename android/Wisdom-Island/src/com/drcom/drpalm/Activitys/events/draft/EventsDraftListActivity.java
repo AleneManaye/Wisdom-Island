@@ -14,7 +14,7 @@ import com.drcom.drpalm.Activitys.ModuleActivity;
 import com.drcom.drpalm.Activitys.main.SchoolView;
 import com.drcom.drpalm.View.events.EventBaseInfoTools;
 import com.drcom.drpalm.View.events.draft.EventsDraftListActivityManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsDraftListActivity extends ModuleActivity {
 	//变量

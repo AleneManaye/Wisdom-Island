@@ -8,7 +8,7 @@ import com.drcom.drpalm.Tool.CommonTranslate.DateFormatter;
 import com.drcom.drpalm.View.setting.DiaryManager;
 import com.drcom.drpalm.objs.DiaryItem;
 import com.drcom.drpalm.objs.GrowdiaryItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.app.AlertDialog;
 import android.content.Context;

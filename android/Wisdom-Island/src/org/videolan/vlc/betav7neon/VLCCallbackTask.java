@@ -19,7 +19,7 @@
  *****************************************************************************/
 package org.videolan.vlc.betav7neon;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.app.ProgressDialog;
 import android.content.Context;

@@ -89,7 +89,7 @@ import com.drcom.drpalm.Tool.DownloadProgressUtils;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.View.controls.cache.ImageLoader.FileCallback;
 import com.drcom.drpalm.View.events.video.ClassVideoDetailActivityManager;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class VideoPlayerActivity extends Activity implements IVideoPlayer {
     public final static String TAG = "VLC/VideoPlayerActivity";

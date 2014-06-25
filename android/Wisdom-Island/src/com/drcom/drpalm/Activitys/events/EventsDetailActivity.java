@@ -30,7 +30,7 @@ import com.drcom.drpalm.View.controls.MyMainItem;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.events.EventsDetailActivityManagement;
 import com.drcom.drpalm.objs.EventDetailsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsDetailActivity extends ModuleActivity{
 	public static String KEY_EVENT_ID = "KEY_EVENT_ID";

@@ -13,7 +13,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class Process extends Activity {
 	public void onCreate(Bundle savedInstanceState) {

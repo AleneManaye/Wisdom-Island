@@ -9,7 +9,7 @@ import com.drcom.drpalm.Tool.service.DrServiceJni;
 import com.drcom.drpalm.Tool.service.DrServiceJniCallback;
 import com.drcom.drpalm.Tool.service.RequestParse;
 import com.drcom.drpalm.objs.ConsultDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NurseryRequest extends Request{
 	protected String mSchoolId = "";

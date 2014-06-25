@@ -29,7 +29,7 @@ import android.widget.Toast;
 
 import com.drcom.drpalm.Tool.breakpointDownload.impl.DownloadTask;
 import com.drcom.drpalm.objs.PushUpgradeAppItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class AppUpdateManagement {
 	public static final String PUSH_UPGRADE = "push_upgrade";

@@ -7,7 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.drcom.drpalm.GlobalVariables;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ErrorNotificatin {
 	public static final int NOTIFICATION_ID = 123456;

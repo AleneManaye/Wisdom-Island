@@ -8,7 +8,7 @@ import android.webkit.WebView;
 import android.widget.Toast;
 
 import com.drcom.drpalm.Activitys.ImgsAttc.ImageAttcGalleryActivity;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 

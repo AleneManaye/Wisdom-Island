@@ -24,7 +24,7 @@ import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.objs.EventDraftItem;
 import com.drcom.drpalm.objs.EventDraftItem.Attachment;
 import com.drcom.drpalm.objs.MainMenuItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 import com.drcom.ui.View.controls.MulitImageActivity.ImagesScanActivity;
 
 import java.io.File;

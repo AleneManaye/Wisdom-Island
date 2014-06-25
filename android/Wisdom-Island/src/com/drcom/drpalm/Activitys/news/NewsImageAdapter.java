@@ -16,7 +16,7 @@ import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.FileManagement;
 import com.drcom.drpalm.View.controls.MyImageView;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NewsImageAdapter extends BaseAdapter {
 	private Context context;

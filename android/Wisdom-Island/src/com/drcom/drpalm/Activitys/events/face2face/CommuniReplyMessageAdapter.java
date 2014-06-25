@@ -16,7 +16,7 @@ import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.AwsContentItem;
 import com.drcom.drpalm.objs.CommunicateItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class CommuniReplyMessageAdapter extends BaseAdapter{
 	protected static final String TAG = "ChattingAdapter";

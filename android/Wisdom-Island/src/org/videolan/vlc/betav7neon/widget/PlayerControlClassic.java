@@ -29,7 +29,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class PlayerControlClassic extends LinearLayout implements IPlayerControl {
     public final static String TAG = "VLC/PlayerControlClassic";

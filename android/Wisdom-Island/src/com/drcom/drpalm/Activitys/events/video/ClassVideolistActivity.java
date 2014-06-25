@@ -27,7 +27,7 @@ import com.drcom.drpalm.View.events.video.ClassVideolistActivityManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 班级视频列表

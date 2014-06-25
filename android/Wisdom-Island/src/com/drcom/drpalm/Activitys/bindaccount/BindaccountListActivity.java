@@ -29,7 +29,7 @@ import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.objs.BindaccountItem;
 import com.drcom.drpalm.objs.BindaccountResultItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class BindaccountListActivity extends ModuleActivity implements OnClickListener{
 	private SlidingDrawer moduleDrawer;

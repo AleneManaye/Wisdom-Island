@@ -8,7 +8,7 @@ import java.util.SimpleTimeZone;
 import java.util.TimeZone;
 
 import com.drcom.drpalm.GlobalVariables;
-//import com.drcom.drpalm4tianzhujiao.R;
+//import com.wisdom.island.R;
 
 public class DateFormatter {
 	static final SimpleDateFormat sDateFormatDMYHMS = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz", Locale.US);

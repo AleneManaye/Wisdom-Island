@@ -51,7 +51,7 @@ import com.drcom.drpalm.View.news.album.AlbumDetailActivityManager;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NewsItem;
 import com.drcom.drpalm.objs.NewsItem.Image;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 相册详细，用ViewGroup 实现画廊效果，抽屉显示相片信息，子控件用WebView实现

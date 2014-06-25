@@ -35,7 +35,7 @@ import org.videolan.vlc.betav7neon.Util;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.Imagetool.BitmapCache;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

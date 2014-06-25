@@ -23,7 +23,7 @@ import com.drcom.drpalm.Tool.FileManagement;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.View.controls.CoverFlow.CoverFlow;
 import com.drcom.drpalm.objs.EventDraftItem.Attachment;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 
 public class NewEventAttcCFAdapter extends ArrayAdapter<Attachment> {

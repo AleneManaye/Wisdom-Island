@@ -38,7 +38,7 @@ import com.drcom.drpalm.View.events.sent.EventsSentDetailActivityManagement;
 import com.drcom.drpalm.View.login.LoginManager;
 import com.drcom.drpalm.View.login.LoginManager.LogoutCallback;
 import com.drcom.drpalm.objs.ShareToFriendItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class MoreView extends LinearLayout {
 	public static int REQUESTCODE_REFLASHWEB = 99;

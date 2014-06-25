@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.drcom.drpalm.Tool.CommonTranslate.DateFormatter;
 import com.drcom.drpalm.objs.EventDetailsItem.Replyer;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ReplyersAdapter extends ArrayAdapter<Replyer>{
 	private List<Replyer> mList;

@@ -11,7 +11,7 @@ import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Activitys.ModuleActivity;
 import com.drcom.drpalm.View.events.sent.EventsSentReaderActivityManagement;
 import com.drcom.drpalm.objs.EventDetailsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsSentReaderActivity extends ModuleActivity{
 	public static String KEY_EVENT_ID = "KEY_EVENT_ID";

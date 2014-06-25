@@ -27,7 +27,7 @@ import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.ReviewResult;
 import com.drcom.drpalm.objs.EventDetailsItem.ReviewTemp;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ReviewActivityManagement {
 	public static int HANDLER_SUMMIT_SUCCEED = 1;

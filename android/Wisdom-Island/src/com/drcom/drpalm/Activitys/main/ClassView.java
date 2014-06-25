@@ -48,7 +48,7 @@ import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.Block;
 import com.drcom.drpalm.objs.MainMenuItem;
 import com.drcom.drpalm.objs.UpdateTimeItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ClassView extends LinearLayout {
 	public static int CHANGE_SUM = 0;

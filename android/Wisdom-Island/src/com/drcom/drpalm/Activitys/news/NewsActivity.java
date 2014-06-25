@@ -28,7 +28,7 @@ import com.drcom.drpalm.View.controls.RefreshListView.OnRefreshListener;
 import com.drcom.drpalm.View.news.NewsActivityManagement;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  *

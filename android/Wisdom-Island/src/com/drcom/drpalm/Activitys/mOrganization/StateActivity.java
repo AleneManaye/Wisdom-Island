@@ -35,7 +35,7 @@ import com.drcom.drpalm.View.mOrganization.StateActivityManagement;
 import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.OrganizationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class StateActivity extends ModuleActivity {
 	public static int RESULT_CODE = 2103;

@@ -25,7 +25,7 @@ import com.drcom.drpalm.View.events.sent.EventsSentListActivityManagement;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.MessageObject;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsSentListActivity extends ModuleActivity {
 	public static final int UPDATEFINISH = 1;	//刷新请求返回成功

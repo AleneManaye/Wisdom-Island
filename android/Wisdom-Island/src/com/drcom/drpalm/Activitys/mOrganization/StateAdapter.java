@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import com.drcom.drpalm.View.mOrganization.StateActivityManagement;
 import com.drcom.drpalm.objs.OrganizationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class StateAdapter extends BaseAdapter {
 //	private static final int REFRESH = 1;

@@ -19,7 +19,7 @@ import com.drcom.drpalm.Tool.LanguageManagement.CurrentLan;
 import com.drcom.drpalm.View.controls.MyMothod;
 import com.drcom.drpalm.objs.Block;
 import com.drcom.drpalm.objs.UpdateTimeItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class TheNewsAdapter extends BaseAdapter {
 	public static int TYPE_SCHOOL = 0;

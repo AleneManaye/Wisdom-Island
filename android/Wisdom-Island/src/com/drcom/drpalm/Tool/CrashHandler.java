@@ -25,7 +25,7 @@ import android.util.Log;
 
 import com.drcom.drpalm.Definition.ActivityActionDefine;
 import com.drcom.drpalm.Tool.service.PreferenceManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class CrashHandler  implements UncaughtExceptionHandler {
 	  public static final String TAG = "CrashHandler";   

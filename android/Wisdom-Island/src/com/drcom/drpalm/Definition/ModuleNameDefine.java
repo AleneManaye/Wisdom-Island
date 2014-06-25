@@ -1,7 +1,7 @@
 package com.drcom.drpalm.Definition;
 
 import com.drcom.drpalm.GlobalVariables;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 模块名管理类

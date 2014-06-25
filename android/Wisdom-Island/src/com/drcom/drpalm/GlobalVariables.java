@@ -52,7 +52,7 @@ import com.drcom.drpalm.objs.EventDraftItem;
 import com.drcom.drpalm.objs.EventDraftItem.Attachment;
 import com.drcom.drpalm.objs.PushSettingInfo;
 import com.drcom.drpalm.objs.ShareToFriendItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 //用于保存全局所用到的变量
 public class GlobalVariables extends Application {

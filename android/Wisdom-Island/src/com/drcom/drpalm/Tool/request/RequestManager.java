@@ -20,7 +20,7 @@ import com.drcom.drpalm.Tool.jsonparser.IParser;
 import com.drcom.drpalm.Tool.service.DrServiceJni;
 import com.drcom.drpalm.Tool.service.DrServiceJniCallback;
 import com.drcom.drpalm.Tool.service.RequestParse;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import javax.xml.transform.Result;
 

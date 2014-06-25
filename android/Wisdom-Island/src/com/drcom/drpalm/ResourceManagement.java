@@ -22,7 +22,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
 import com.drcom.drpalm.Tool.zip.ZipUtils;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ResourceManagement {	
 	private static class Picture{

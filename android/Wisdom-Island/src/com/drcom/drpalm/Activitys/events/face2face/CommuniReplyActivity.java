@@ -23,7 +23,7 @@ import com.drcom.drpalm.Tool.request.RequestOperation;
 import com.drcom.drpalm.Tool.request.RequestOperationReloginCallback;
 import com.drcom.drpalm.View.events.face2face.CommuniReplyActivityManagement;
 import com.drcom.drpalm.objs.CommunicateItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**     
  * Date         : 2012-8-6

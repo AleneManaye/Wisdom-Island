@@ -53,7 +53,7 @@ import com.drcom.drpalm.objs.EventDraftItem;
 import com.drcom.drpalm.objs.EventsTypeLanguage;
 import com.drcom.drpalm.objs.EventsTypeLanguageResultItem;
 import com.drcom.drpalm.objs.OrganizationItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NewEventActivity extends ModuleActivity {
 	private static int STARTTIME = 0;

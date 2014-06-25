@@ -18,7 +18,7 @@ import android.widget.SlidingDrawer;
 import com.drcom.drpalm.View.controls.PageControlView;
 import com.drcom.drpalm.View.share.SelectionPageAdapter;
 import com.drcom.drpalm.objs.ShareToFriendItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ShareToFriendViewHelper {
 	private Button cancel;

@@ -6,7 +6,7 @@ import java.io.IOException;
 
 import com.drcom.drpalm.GlobalVariables;
 import com.drcom.drpalm.Tool.ResourceManagement;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.R.integer;
 import android.content.Context;

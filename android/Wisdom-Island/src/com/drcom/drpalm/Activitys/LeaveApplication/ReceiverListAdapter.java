@@ -13,7 +13,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 
 import com.drcom.drpalm.objs.ReceiverItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 class ReceiverListAdapter extends BaseAdapter{
 

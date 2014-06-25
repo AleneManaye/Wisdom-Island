@@ -37,7 +37,7 @@ import com.drcom.drpalm.Tool.drHttpClient.HttpStatus;
 import com.drcom.drpalm.View.login.LoginManager;
 import com.drcom.drpalm.View.login.LoginManager.LoginCallback;
 import com.drcom.drpalm.View.setting.SettingManager;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class LoginActivity extends ModuleActivity {
 	public static String RESULT_CODE_KEY = "resultcodekey";

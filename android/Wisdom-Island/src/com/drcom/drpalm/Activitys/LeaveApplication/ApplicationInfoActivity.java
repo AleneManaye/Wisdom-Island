@@ -25,7 +25,7 @@ import com.drcom.drpalm.View.LeaveApplication.LeaveApplicationMainManager;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.LeaveApplicationMainItem;
 import com.drcom.drpalm.objs.MessageObject;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ApplicationInfoActivity extends ModuleActivity {
 	private TextView type;// 请假类型

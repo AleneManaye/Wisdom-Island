@@ -28,7 +28,7 @@ import org.videolan.vlc.betav7neon.MediaDatabase;
 import org.videolan.vlc.betav7neon.Util;
 
 import com.drcom.drpalm.Tool.Imagetool.BitmapCache;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.app.AlertDialog;
 import android.content.Context;

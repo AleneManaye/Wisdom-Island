@@ -9,7 +9,7 @@ import com.drcom.drpalm.Activitys.Navigation.SchoolNavigation;
 import com.drcom.drpalm.DB.NavigationDB;
 import com.drcom.drpalm.Definition.ActivityActionDefine;
 import com.drcom.drpalm.objs.NavigationListItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

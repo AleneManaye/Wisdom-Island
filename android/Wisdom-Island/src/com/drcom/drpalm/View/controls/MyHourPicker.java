@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import com.drcom.drpalm.View.controls.wheel.NumericWheelAdapter;
 import com.drcom.drpalm.View.controls.wheel.OnWheelChangedListener;
 import com.drcom.drpalm.View.controls.wheel.WheelView;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class MyHourPicker extends LinearLayout {
 	private WheelView hours;

@@ -15,7 +15,7 @@ import com.drcom.drpalm.Tool.service.DrServiceJniCallback;
 import com.drcom.drpalm.Tool.service.RequestParse;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class EventsRequest extends Request {
 	private DrServiceJni mDrServiceJni;

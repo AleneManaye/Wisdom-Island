@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import com.drcom.drpalm.Activitys.ModuleActivity;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class ReviewTestActivity extends ModuleActivity{
 	private Spinner mSpinner1,mSpinner2;

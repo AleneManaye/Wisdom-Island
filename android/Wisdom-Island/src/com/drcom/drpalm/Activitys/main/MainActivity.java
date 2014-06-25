@@ -49,7 +49,7 @@ import com.drcom.drpalm.View.notification.ErrorNotificatin;
 import com.drcom.drpalm.View.setting.SettingManager;
 import com.drcom.drpalm.objs.ToursItem;
 import com.drcom.drpalm.objs.UpdateTimeItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class MainActivity extends ModuleActivity {
 	private int GETNG_SUCCDDE = 1;

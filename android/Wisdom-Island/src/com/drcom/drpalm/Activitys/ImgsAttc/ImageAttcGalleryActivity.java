@@ -38,7 +38,7 @@ import com.drcom.drpalm.View.controls.PageIndicatorView;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.View.controls.cache.ImageLoader.BigImageCallback;
 import com.drcom.drpalm.View.controls.cache.ImageLoader.FileCallback;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 

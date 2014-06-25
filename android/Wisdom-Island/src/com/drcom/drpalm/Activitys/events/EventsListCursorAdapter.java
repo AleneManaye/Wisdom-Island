@@ -21,7 +21,7 @@ import com.drcom.drpalm.Tool.CommonTranslate.DateFormatter;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 
 /*      

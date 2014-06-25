@@ -29,7 +29,7 @@ import com.drcom.drpalm.objs.MyPushMessageItem;
 import com.drcom.drpalm.objs.PushActionDefine;
 import com.drcom.drpalm.objs.PushMessageItem;
 import com.drcom.drpalm.objs.PushUpgradeAppItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class PushReceiver extends BroadcastReceiver{
 

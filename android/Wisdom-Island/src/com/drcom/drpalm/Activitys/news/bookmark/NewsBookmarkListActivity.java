@@ -16,7 +16,7 @@ import com.drcom.drpalm.Activitys.ModuleActivity;
 import com.drcom.drpalm.Activitys.news.NewsListAdapter;
 import com.drcom.drpalm.View.news.bookmark.NewsBookmarkListActivityManagement;
 import com.drcom.drpalm.objs.NewsItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class NewsBookmarkListActivity extends ModuleActivity {
 	// 变量

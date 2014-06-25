@@ -1,6 +1,6 @@
 package com.drcom.drpalm.Activitys.fragments;
 
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * Created by 梁炜杰 on 2014/5/28.

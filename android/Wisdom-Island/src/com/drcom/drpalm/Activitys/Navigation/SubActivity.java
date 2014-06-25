@@ -7,7 +7,7 @@ import android.view.Window;
 import android.widget.LinearLayout;
 
 import com.drcom.drpalm.View.controls.NewSearchBar;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class SubActivity extends Activity{
 	public LinearLayout mContentLayout;

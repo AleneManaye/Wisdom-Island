@@ -10,7 +10,7 @@ import com.drcom.drpalm.Tool.service.DrServiceJni;
 import com.drcom.drpalm.Tool.service.DrServiceJniCallback;
 import com.drcom.drpalm.Tool.service.RequestParse;
 import com.drcom.drpalm.objs.SystemInfoItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 public class SystemInfoRequest extends Request{
 	private DrServiceJni mDrServiceJni;

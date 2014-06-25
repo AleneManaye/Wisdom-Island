@@ -2,7 +2,7 @@ package com.drcom.drpalm.Activitys.events.video;
 
 import com.drcom.drpalm.Tool.DownloadProgressUtils;
 import com.drcom.drpalm.View.controls.cache.ImageLoader;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 import android.app.Activity;
 import android.graphics.Bitmap;

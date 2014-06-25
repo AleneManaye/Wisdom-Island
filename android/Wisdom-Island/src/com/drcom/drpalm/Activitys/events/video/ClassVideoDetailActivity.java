@@ -45,7 +45,7 @@ import com.drcom.drpalm.View.events.video.ClassVideoDetailActivityManager;
 import com.drcom.drpalm.objs.EventDetailsItem;
 import com.drcom.drpalm.objs.EventDetailsItem.Replyer;
 import com.drcom.drpalm.objs.EventDraftItem;
-import com.drcom.drpalm4tianzhujiao.R;
+import com.wisdom.island.R;
 
 /**
  * 视频详细，抽屉显示视频信息
