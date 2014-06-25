@@ -92,37 +92,38 @@ public class ToursAcitivity extends ModuleActivity {
 	}
 	
 	private void initTours(){
+		webview.loadUrl("file:///android_asset/tours/index.htm");
 		ResourceManagement r = new ResourceManagement();//.getResourceManagement();
-		if(!r.getToursPath().equals("")){
+//		if(!r.getToursPath().equals("")){
+////			if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.COMPLES_CHINESE){
+////				URL = "file://" + r.getToursPath(CurrentLan.COMPLES_CHINESE) + getString(R.string.toursindex);
+////			}else if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.ENGLISH){
+////				URL = "file://" + r.getToursPath(CurrentLan.ENGLISH) + getString(R.string.toursindex);
+////			}else{
+////				URL = "file://" + r.getToursPath() + getString(R.string.toursindex);
+////			}
+//			
+//			URL = "file://" + r.getToursPath(LanguageManagement.getSysLanguage(ToursAcitivity.this)) + getString(R.string.toursindex);
+//			
+//			webview.postDelayed(new Runnable() {
+//				
+//				@Override
+//				public void run() {
+//					// TODO Auto-generated method stub
+//					webview.loadUrl(URL);//("http://www.baidu.com");
+//				}
+//			}, 200);
+//		}else{
+//			//没下载资源包,则加载默认页面
 //			if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.COMPLES_CHINESE){
-//				URL = "file://" + r.getToursPath(CurrentLan.COMPLES_CHINESE) + getString(R.string.toursindex);
+//				webview.loadUrl("file:///android_asset/tours_t/index.htm");
 //			}else if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.ENGLISH){
-//				URL = "file://" + r.getToursPath(CurrentLan.ENGLISH) + getString(R.string.toursindex);
+//				webview.loadUrl("file:///android_asset/tours_en/index.htm");  
 //			}else{
-//				URL = "file://" + r.getToursPath() + getString(R.string.toursindex);
+//				webview.loadUrl("file:///android_asset/tours/index.htm");  
 //			}
-			
-			URL = "file://" + r.getToursPath(LanguageManagement.getSysLanguage(ToursAcitivity.this)) + getString(R.string.toursindex);
-			
-			webview.postDelayed(new Runnable() {
-				
-				@Override
-				public void run() {
-					// TODO Auto-generated method stub
-					webview.loadUrl(URL);//("http://www.baidu.com");
-				}
-			}, 200);
-		}else{
-			//没下载资源包,则加载默认页面
-			if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.COMPLES_CHINESE){
-				webview.loadUrl("file:///android_asset/tours_t/index.htm");
-			}else if(LanguageManagement.getSysLanguage(ToursAcitivity.this) == CurrentLan.ENGLISH){
-				webview.loadUrl("file:///android_asset/tours_en/index.htm");  
-			}else{
-				webview.loadUrl("file:///android_asset/tours/index.htm");  
-			}
-			
-		}
+//			
+//		}
 		r = null;
 	}
 	

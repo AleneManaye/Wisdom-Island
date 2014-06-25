@@ -56,7 +56,7 @@
 		</show>
 	</block>
 	
-	<block id="3001" type="class" icon="icon_class_courseware" name="courseware" namechs="积分兑换" namecht="积分兑换"
+	<block id="3001" type="class" icon="icon_class_courseware" name="courseware" namechs="班级作业" namecht="班级作业"
 	    nameen="Plan">
 		<show>
 			true
@@ -98,7 +98,7 @@
 		</show>
 	</block>
 
-	<block id="9998" type="class" icon="icon_class_sysinfo" name="sysinfo" namechs="系统信息" namecht="系統信息"
+	<block id="9998" type="class" icon="icon_class_sysinfo" name="sysinfo" namechs="积分兑换" namecht="积分兑换"
 	    nameen="System">
 		<show>
 			true

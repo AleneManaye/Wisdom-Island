@@ -162,7 +162,8 @@
                                     android:layout_height="50dp"
                                     android:layout_marginTop="1dip"
                                     android:background="@drawable/table_item_selector"
-                                    android:orientation="horizontal" >
+                                    android:orientation="horizontal"
+                                    android:visibility="gone" >
 
                                     <ImageView
                                         android:id="@+id/imageView10"
@@ -202,7 +203,8 @@
                                     android:layout_width="fill_parent"
                                     android:layout_height="50dp"
                                     android:background="@drawable/table_item_selector"
-                                    android:orientation="horizontal" >
+                                    android:orientation="horizontal"
+                                    android:visibility="gone" >
 
                                     <ImageView
                                         android:id="@+id/imageView4"
@@ -319,7 +321,8 @@
                                     android:layout_width="fill_parent"
                                     android:layout_height="50dp"
                                     android:background="@drawable/table_item_selector"
-                                    android:orientation="horizontal" >
+                                    android:orientation="horizontal"
+                                    android:visibility="gone" >
 
                                     <ImageView
                                         android:id="@+id/imageView7"
