@@ -327,8 +327,20 @@ public class NewsDB {
 //		String[] fields = new String[] { STORIES_TABLE + "." + STORY_ID, 
 //				TITLE, BODY, SUMMARY, AUTHOR, POST_DATE, LAST_UPDATE, THUMB_URL, SMALL_URL, SHARE_URL, FULL_URL, BOOKMARKED, ISREAD };
 
-		String joinQuery = SQLiteQueryBuilder.buildQueryString(false, STORIES_TABLE + ", " + CATEGORIES_TABLE, null, CATEGORY + "=" + Integer.toString(category) + " AND " + STORIES_TABLE + "."
-				+ STORY_ID + "=" + CATEGORIES_TABLE + "." + STORY_ID + " AND " + STATUS + " !='" + "D" + "'", null, null, LAST_UPDATE + " DESC ", limit); // POST_DATE
+		String joinQuery = SQLiteQueryBuilder.buildQueryString(false, STORIES_TABLE + ", " + CATEGORIES_TABLE, 
+				null, 
+				CATEGORY + "=" + Integer.toString(category) + " AND " 
+				+ STORIES_TABLE + "." + STORY_ID + "=" + CATEGORIES_TABLE + "." + STORY_ID 
+				+ " AND " 
+				+ STATUS + " !='" + "D" + "'" 
+				+ " AND "
+				+ TITLE + " NOT LIKE '%" + "润南" + "%'" 
+				+ " AND "
+				+ TITLE + " NOT LIKE '%" + "广电" + "%'" 
+				+ " AND "
+				+ SUMMARY + " NOT LIKE '%" + "E宝贝" + "%'"
+				, 
+				null, null, LAST_UPDATE + " DESC ", limit); // POST_DATE
 		// +
 		// " DESC, "
 		// +

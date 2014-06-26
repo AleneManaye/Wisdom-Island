@@ -408,7 +408,8 @@ public class MainActivity extends ModuleActivity {
 			});
 		}
 		
-		setTitleLogo(mResourceManagement.getBitmapFromFile(getResources().getString(R.string.title_icon)));		
+		setTitleLogo(mResourceManagement.getBitmapFromFile(getResources().getString(R.string.title_icon)));	
+		setTitleText(getString(R.string.app_name));
 	}
 
 	/**
